@@ -247,6 +247,7 @@ From [ReactDOM.render and the Top Level React API](https://facebook.github.io/re
 >If you are rendering React components within a single-page app, you may need to plug into the app's view lifecycle to ensure your app will invoke `unmountComponentAtNode` at the appropriate time. **React will not automatically clean up a tree**. You need to manually call:
 
 > `ReactDOM.unmountComponentAtNode(domContainerNode)`
+
 >This is important and often forgotten. Forgetting to call unmountComponentAtNode will cause your app to **leak memory**.
 
 

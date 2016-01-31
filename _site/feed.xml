@@ -5,8 +5,8 @@
     <description>Zibing&#39;s blog on technology, life, thinking, etc.</description>
     <link>aaronice.github.io/</link>
     <atom:link href="aaronice.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 31 Jan 2016 03:22:44 -0800</pubDate>
-    <lastBuildDate>Sun, 31 Jan 2016 03:22:44 -0800</lastBuildDate>
+    <pubDate>Sun, 31 Jan 2016 03:28:50 -0800</pubDate>
+    <lastBuildDate>Sun, 31 Jan 2016 03:28:50 -0800</lastBuildDate>
     <generator>Jekyll v3.1.1</generator>
     
       <item>
@@ -286,8 +286,11 @@ React tools
 &lt;/blockquote&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;ReactDOM.unmountComponentAtNode(domContainerNode)&lt;/code&gt;
-This is important and often forgotten. Forgetting to call unmountComponentAtNode will cause your app to &lt;strong&gt;leak memory&lt;/strong&gt;.&lt;/p&gt;
+  &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;ReactDOM.unmountComponentAtNode(domContainerNode)&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;This is important and often forgotten. Forgetting to call unmountComponentAtNode will cause your app to &lt;strong&gt;leak memory&lt;/strong&gt;.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;h3 id=&quot;difference-between-state-and-props-in-reactjs&quot;&gt;Difference between state and props in React.js&lt;/h3&gt;
