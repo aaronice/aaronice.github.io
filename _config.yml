@@ -8,10 +8,11 @@ url: "aaronice.github.io"
 twitter_username: ZibingH
 github_username:  aaronice
 facebook_username:  zibing.huang
+linkedin: zibing
 
 # Build settings
 markdown: kramdown
-highlighter: rouge
+highlighter: pygments
 permalink: pretty
 paginate: 10
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
