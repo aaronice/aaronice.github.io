@@ -1,5 +1,5 @@
 # Site settings
-title: Code Isn't Cold
+title: Code Is Not Cold
 header-img: img/home-bg.jpg
 email: hiaaronice@gmail.com
 description: "Zibing's blog on technology, life, thinking, etc."
@@ -11,7 +11,7 @@ facebook_username:  zibing.huang
 
 # Build settings
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 permalink: pretty
 paginate: 10
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]

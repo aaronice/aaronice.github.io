@@ -240,13 +240,13 @@ From [ReactDOM.render and the Top Level React API](https://facebook.github.io/re
 
 >The primary API for rendering into the DOM looks like this:
 
->~~~ReactDOM.render(reactElement, domContainerNode)~~~
+> `ReactDOM.render(reactElement, domContainerNode)`
 
 >To update the properties of an existing component, you call render again with a new element.
 
 >If you are rendering React components within a single-page app, you may need to plug into the app's view lifecycle to ensure your app will invoke `unmountComponentAtNode` at the appropriate time. **React will not automatically clean up a tree**. You need to manually call:
 
->~~~ReactDOM.unmountComponentAtNode(domContainerNode)~~~
+> `ReactDOM.unmountComponentAtNode(domContainerNode)`
 >This is important and often forgotten. Forgetting to call unmountComponentAtNode will cause your app to **leak memory**.
 
 
@@ -319,7 +319,7 @@ render: function() {
 
 Another [example](http://stackoverflow.com/questions/22876978/loop-inside-react-jsx) for loop in React.js
 
-~~~javascript
+~~~ javascript
 var rows = [];
 for (var i=0; i < numrows; i++) {
     rows.push(<ObjectRow />);
