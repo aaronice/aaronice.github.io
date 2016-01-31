@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Zibing's blog on technology, life, thinking, etc.">
+
+    <title>React.js Study Notes - Code Isn't Cold</title>
+
+    <link rel="canonical" href="aaronice.github.io/2015/12/15/react-study/">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/clean-blog.css">
+
+    <!-- Pygments Github CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
+
+    <!-- Custom Fonts -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+
+<body>
+
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">Code Isn't Cold</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="/">Home</a>
+                </li>
+                
+                <li>
+                    <a href="/about/">About</a>
+                </li>
+                
+                <li>
+                    <a href="/contact/">Contact</a>
+                </li>
+                
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+
+    <!-- Post Header -->
+<header class="intro-header" style="background-image: url('/')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <h1>React.js Study Notes</h1>
+                    
+                    <h2 class="subheading">Notes of learning React.js library</h2>
+                    
+                    <span class="meta">Posted by Zibing on December 15, 2015</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
+                <h1 id="reactjs-study-notes">React.js Study Notes</h1>
+
+<hr />
+
+<h2 id="introduction-to-react">Introduction to React</h2>
+
+<p>React Official Page: https://facebook.github.io/react/</p>
+
+<blockquote>
+  <p>React is a JavaScript library for creating user interfaces by Facebook and Instagram. Many people choose to think of React as the <strong>V</strong> in <a href="https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller"><strong>MVC</strong></a>.</p>
+</blockquote>
+
+<blockquote>
+  <p>React is built to solve one problem: <strong>building large applications with data that changes over time.</strong></p>
+</blockquote>
+
+<blockquote>
+  <p><strong>React is all about building reusable components.</strong> - <a href="https://facebook.github.io/react/docs/why-react.html">React.js</a></p>
+</blockquote>
+
+<h4 id="think-in-react">Think in React</h4>
+
+<blockquote>
+  <p><strong>Components are Just State Machines</strong></p>
+
+  <p>React thinks of UIs as simple <em>state machines</em>. By thinking of a UI as being in various states and rendering those states, it’s easy to keep your UI consistent.</p>
+
+  <p>In React, you simply update a component’s <code>state</code>, and then render a new UI based on this new state. React takes care of updating the DOM for you in the most efficient way.</p>
+</blockquote>
+
+<p><strong>About React.js</strong>
+- Open source, but maintained by Facebook
+- Can be the “V” (view) in MVC
+- Ideal for large-scale, single page applications
+- Uses a high speed virtual DOM
+- Options to use clean and easy-to-understand JSX syntax</p>
+
+<h2 id="environment-setup">Environment Setup</h2>
+<p>Actually it’s possible to create a React.js app without installing <code>npm</code>.</p>
+
+<p>By using content delivery network, we can add following snippet to an HTML file to enable React.js:</p>
+
+<pre><code>&lt;script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.0/react.js"&gt;&lt;/script&gt;
+&lt;script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.0/react-dom.js"&gt;&lt;/script&gt;
+</code></pre>
+<p>An alternative is to use <a href="https://babeljs.io/">Babel</a> with <a href="gulpjs.com">Gulp</a>.</p>
+
+<h2 id="displaying-data">Displaying Data</h2>
+
+<blockquote>
+  <p>The way we are able to figure this out is that React does not manipulate the DOM unless it needs to. <strong>It uses a fast, internal mock DOM to perform diffs and computes the most efficient DOM mutation for you.</strong></p>
+</blockquote>
+
+<p>React
+ReactDOM</p>
+
+<p><strong>Why is React So Fast?</strong>
+- Javascript Objects are faster than DOM objects
+- The React virtual DOM is a Javascript object
+- React never reads from the “real” DOM
+- React only writes to the real DOM if needed.</p>
+
+<hr />
+
+<h2 id="jsx">JSX</h2>
+
+<p>In-browser JSX Transformer
+- It’s great for development, but will take extra time for production code
+React tools
+- Good for production, pre-process the JSX</p>
+
+<p>Pre-process
+- Good for production</p>
+
+<h3 id="rendering-component">Rendering Component</h3>
+<p>It allows maximum of one node to be returned in render function.</p>
+
+<p>The following example will get syntax error:</p>
+
+<pre><code class="language-javascript">var Optimistic = React.createClass({
+  render: function() {
+    return (
+      &lt;h1&gt;{this.props.name} loves React&lt;/h1&gt;
+      &lt;p&gt;React doesn’t. Idea: sprinkle some divs here and there.&lt;/p&gt;
+    );
+  }
+});
+
+React.render(
+  &lt;Optimistic name="Peter" /&gt;,
+  document.getElementById('myContainer')
+);
+</code></pre>
+
+<hr />
+
+<h2 id="component-specs-and-lifecycle">Component Specs and Lifecycle</h2>
+
+<h3 id="component-specifications">Component Specifications</h3>
+
+<ul>
+  <li><code>render()</code></li>
+  <li><code>getInitialState()</code></li>
+  <li><code>propTypes</code></li>
+  <li><code>mixins</code></li>
+  <li><code>statics</code></li>
+  <li><code>displayName</code></li>
+</ul>
+
+<h3 id="lifecycle-methods">Lifecycle Methods</h3>
+
+<ul>
+  <li>Mounting: <code>componentWillMount</code></li>
+  <li>Mounting:<code>componentDidMount</code></li>
+  <li>Updating: <code>componentWillReceiveProps</code></li>
+  <li>Updating: <code>shouldComponentUpdate</code></li>
+  <li>Updating: <code>componentWillUpdate</code></li>
+  <li>Updating: <code>componentDidUpdate</code></li>
+  <li>Unmounting: <code>componentWillUnmount</code></li>
+</ul>
+
+<h3 id="component-lifecycle">Component Lifecycle</h3>
+
+<p><img src="http://cdn4.infoqstatic.com/statics_s1_20151111-0209/resource/articles/react-jsx-and-component/zh/resources/0702001.png" alt="img" /></p>
+
+<p>Based on <a href="http://javascript.tutorialhorizon.com/2014/09/13/execution-sequence-of-a-react-components-lifecycle-methods/"><strong>Execution sequence of a React component’s lifecycle methods</strong></a>, four scenarios need to be aware of the life­cy­cle meth­ods:</p>
+
+<ul>
+  <li><strong>Ini­tial Ren­der</strong></li>
+</ul>
+
+<p><img src="https://camo.githubusercontent.com/461765618c95d7d3d0941d767a95855cb5698195/687474703a2f2f7279616e73756b616c652e636f6d2f76697a2f74682f6a732f72656163746a735f636f6d706f6e656e745f6c6966656379636c652f696e697469616c5f72656e6465722e706e67" alt="" /></p>
+
+<ul>
+  <li><strong>Props Change</strong></li>
+</ul>
+
+<p><img src="https://camo.githubusercontent.com/89a1b3c9ec4282045c095b5e74c296de7165955a/687474703a2f2f7279616e73756b616c652e636f6d2f76697a2f74682f6a732f72656163746a735f636f6d706f6e656e745f6c6966656379636c652f70726f70735f6368616e67652e706e67" alt="" /></p>
+
+<ul>
+  <li><strong>State Change</strong></li>
+</ul>
+
+<p><img src="https://camo.githubusercontent.com/10de2955e68ca334679daf4cf821b18b5364f029/687474703a2f2f7279616e73756b616c652e636f6d2f76697a2f74682f6a732f72656163746a735f636f6d706f6e656e745f6c6966656379636c652f73746174655f6368616e67652e706e67" alt="" /></p>
+
+<ul>
+  <li><strong>Com­po­nent Unmount</strong></li>
+</ul>
+
+<p><img src="https://camo.githubusercontent.com/c0390065e7dcd4e75ad6a146db705f8a23826716/687474703a2f2f7279616e73756b616c652e636f6d2f76697a2f74682f6a732f72656163746a735f636f6d706f6e656e745f6c6966656379636c652f756e6d6f756e742e706e67" alt="" /></p>
+
+<p>The following code snippet con­tains all the life­cy­cle meth­ods and other fre­quenly used method that you can use as start­ing point for cre­at­ing your com­po­nents.</p>
+
+<pre><code class="language-javascript">//@jsx React.DOM
+
+var React = require('react'),
+    MyReactComponent = React.createClass({
+
+    // The object returned by this method sets the initial value of this.state
+    getInitialState: function(){
+        return {};
+    },
+
+    // The object returned by this method sets the initial value of this.props
+    // If a complex object is returned, it is shared among all component instances
+    getDefaultProps: function(){
+        return {};
+    },
+
+    // Returns the jsx markup for a component
+    // Inspects this.state and this.props create the markup
+    // Should never update this.state or this.props
+    render: function(){
+        return (&lt;div&gt;&lt;/div&gt;);
+    },
+
+    // An array of objects each of which can augment the lifecycle methods
+    mixins: [],
+
+    // Functions that can be invoked on the component without creating instances
+    statics: {
+        aStaticFunction: function(){}
+    },
+
+    // -- Lifecycle Methods --
+
+    // Invoked once before first render
+    componentWillMount: function(){
+        // Calling setState here does not cause a re-render
+    },
+
+    // Invoked once after the first render
+    componentDidMount: function(){
+        // You now have access to this.getDOMNode()
+    },
+
+    // Invoked whenever there is a prop change
+    // Called BEFORE render
+    componentWillReceiveProps: function(nextProps){
+        // Not called for the initial render
+        // Previous props can be accessed by this.props
+        // Calling setState here does not trigger an an additional re-render
+    },
+
+    // Determines if the render method should run in the subsequent step
+    // Called BEFORE a render
+    // Not called for the initial render
+    shouldComponentUpdate: function(nextProps, nextState){
+        // If you want the render method to execute in the next step
+        // return true, else return false
+        return true;
+    },
+
+    // Called IMMEDIATELY BEFORE a render
+    componentWillUpdate: function(nextProps, nextState){
+        // You cannot use this.setState() in this method
+    },
+
+    // Called IMMEDIATELY AFTER a render
+    componentDidUpdate: function(prevProps, prevState){
+    },
+
+    // Called IMMEDIATELY before a component is unmounted
+    componentWillUnmount: function(){
+    }
+
+});
+
+module.exports = MyReactComponent;
+
+</code></pre>
+
+<hr />
+
+<h2 id="tips">Tips</h2>
+
+<h3 id="reactdomrender-vs-reactrender">ReactDOM.render() vs React.render()</h3>
+
+<p>From <a href="https://facebook.github.io/react/blog/2015/10/01/react-render-and-top-level-api.html">ReactDOM.render and the Top Level React API</a></p>
+
+<blockquote>
+  <p>When you’re in React’s world you are just building components that fit into other components. Everything is a component. Unfortunately not everything around you is built using React. At the root of your tree you still have to write some plumbing code to connect the outer world into React.</p>
+</blockquote>
+
+<blockquote>
+  <p>The primary API for rendering into the DOM looks like this:</p>
+</blockquote>
+
+<blockquote>
+  <p>~~~ReactDOM.render(reactElement, domContainerNode)~~~</p>
+</blockquote>
+
+<blockquote>
+  <p>To update the properties of an existing component, you call render again with a new element.</p>
+</blockquote>
+
+<blockquote>
+  <p>If you are rendering React components within a single-page app, you may need to plug into the app’s view lifecycle to ensure your app will invoke <code>unmountComponentAtNode</code> at the appropriate time. <strong>React will not automatically clean up a tree</strong>. You need to manually call:</p>
+</blockquote>
+
+<blockquote>
+  <p>~~~ReactDOM.unmountComponentAtNode(domContainerNode)~~~
+This is important and often forgotten. Forgetting to call unmountComponentAtNode will cause your app to <strong>leak memory</strong>.</p>
+</blockquote>
+
+<h3 id="difference-between-state-and-props-in-reactjs">Difference between state and props in React.js</h3>
+
+<p>Some discussion on StackOverflow:</p>
+
+<ul>
+  <li><a href="http://stackoverflow.com/questions/27991366/what-is-the-difference-between-state-and-props-in-react">What is the difference between state and props in React?</a></li>
+  <li><a href="http://stackoverflow.com/questions/23481061/reactjs-state-vs-prop">ReactJS state vs prop</a></li>
+  <li><a href="https://github.com/uberVU/react-guide/blob/master/props-vs-state.md">props vs state</a></li>
+</ul>
+
+<p>On React.js Official Website:</p>
+
+<blockquote>
+  <h4 id="a-brief-interlude-props-vs-state">A brief interlude: props vs state</h4>
+  <p>There are two types of “model” data in React: <code>props</code> and <code>state</code>. It’s important to understand the distinction between the two; skim the <a href="https://facebook.github.io/react/docs/interactivity-and-dynamic-uis.html">official React docs</a> if you aren’t sure what the difference is.</p>
+</blockquote>
+
+<p>To understand the difference between <code>props</code> and <code>state</code>, we have to know what they are in the first place.</p>
+
+<p><a href="https://facebook.github.io/react/docs/interactivity-and-dynamic-uis.html">Link to the article</a></p>
+
+<p>Some helpful extracts from the article:</p>
+
+<h4 id="how-state-works">How State Works</h4>
+<p>A common way to inform React of a data change is by calling <code>setState(data, callback)</code>. This method merges <code>data</code> into <code>this.state</code> and re-renders the component. When the component finishes re-rendering, the optional <code>callback</code> is called. Most of the time you’ll never need to provide a <code>callback</code> since React will take care of keeping your UI up-to-date for you.</p>
+
+<h4 id="what-components-should-have-state">What Components Should Have State?</h4>
+
+<p>Most of your components should simply take some data from <code>props</code> and render it. However, sometimes you need to respond to <strong>user input</strong>, <strong>a server request</strong> or <strong>the passage of time</strong>. For this you use <code>state</code>.</p>
+
+<p><strong>Try to keep as many of your components as possible <em>stateless</em></strong>. By doing this you’ll isolate the state to its most logical place and minimize redundancy, making it easier to reason about your application.</p>
+
+<p>A common pattern is to create several <em><code>stateless</code> components that just render data</em>, and have a <em><code>stateful</code> component above them in the hierarchy that passes its <code>state</code> to its children via <code>props</code></em>. The stateful component encapsulates all of the <strong>interaction logic</strong>, while the stateless components take care of <strong>rendering data</strong> in a declarative way.</p>
+
+<h4 id="what-should-go-in-state">What Should Go in State?</h4>
+
+<p><strong>State should contain data that a component’s event handlers may change to trigger a UI update</strong>. In real apps this data tends to be very small and JSON-serializable. When building a stateful component, think about the minimal possible representation of its state, and only store those properties in <code>this.state</code>. Inside of <code>render() </code> simply compute any other information you need based on this state. You’ll find that thinking about and writing applications in this way tends to lead to the most correct application, since adding redundant or computed values to state means that you need to explicitly keep them in sync rather than rely on React computing them for you.</p>
+
+<h4 id="what-shouldnt-go-in-state">What Shouldn’t Go in State?</h4>
+
+<p>this.state should only contain the minimal amount of data needed to represent your UI’s state. As such, it should not contain:</p>
+
+<ul>
+  <li><strong>Computed data</strong>: Don’t worry about precomputing values based on state — it’s easier to ensure that your UI is consistent if you do all computation within <code>render()</code>. For example, if you have an array of list items in state and you want to render the count as a string, simply render <code>this.state.listItems.length + ' list items'</code> in your render() method rather than storing it on state.</li>
+  <li><strong>React components</strong>: Build them in <code>render()</code> based on underlying props and state.</li>
+  <li><strong>Duplicated data from props</strong>: Try to use props as the source of truth where possible. One valid use to store props in state is to be able to know its previous values, because props may change as the result of a parent component re-rendering.</li>
+</ul>
+
+<h3 id="loop-and-render-node-elements-in-reactjs">Loop and render node (elements) in React.js</h3>
+
+<p><a href="http://stackoverflow.com/questions/29149169/how-to-loop-and-render-elements-in-react-js-without-an-array-of-objects-to-map">Q&amp;A on StackOverflow</a></p>
+
+<p>Because of <a href="http://facebook.github.io/react/tips/maximum-number-of-jsx-root-nodes.html"><strong>Maximum Number of JSX Root Nodes</strong></a>, the return value needs to be wrapped in a container, such as <code>&lt;div&gt;&lt;/div&gt;</code></p>
+
+<p><em>by Dhiraj Bodicherla</em></p>
+
+<pre><code class="language-javascript">render: function() {
+  var indents = [];
+  for (var i = 0; i &lt; this.props.level; i++) {
+    indents.push(&lt;span className='indent'&gt;&lt;/span&gt;);
+  }
+  return (
+     &lt;div&gt;
+      {indents}
+      "Some text value"
+     &lt;/div&gt;
+  );
+}
+</code></pre>
+
+<p>Another <a href="http://stackoverflow.com/questions/22876978/loop-inside-react-jsx">example</a> for loop in React.js</p>
+
+<pre><code class="language-javascript">var rows = [];
+for (var i=0; i &lt; numrows; i++) {
+    rows.push(&lt;ObjectRow /&gt;);
+}
+return &lt;tbody&gt;{rows}&lt;/tbody&gt;;
+</code></pre>
+
+<hr />
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>React.js provides a new way of working with HTML, CSS, and Javascript, the components can be easily re-used, while the virtual DOM concept provides performance improvements on DOM operations. It’s totally fine to write React component working with legacy code, however, it can be hard to manage the data flow and states as the complexity of the project grows. Therefore, a systematic approach, such as an architecture is much needed for a React.js front-end project. In following post, I’ll talk about an architecture, well, it’s not the well-know MVC, in fact, it’s also introduced by Facebook, the <a href="https://facebook.github.io/flux/"><strong>Flux</strong></a>.</p>
+
+
+                <hr>
+
+                <ul class="pager">
+                    
+                    
+                    <li class="next">
+                        <a href="/2016/01/04/flux-architecture/" data-toggle="tooltip" data-placement="top" title="Flux Architecture">Next Post &rarr;</a>
+                    </li>
+                    
+                </ul>
+
+                <hr>
+                <!-- Twitter Plugin -->
+<!-- Use Twitter Button In the Future-->
+<!-- https://dev.twitter.com/web/tweet-button -->
+
+<p>If you liked this post, you can
+<a href="https://twitter.com/intent/tweet?url=aaronice.github.io/2015/12/15/react-study/&text=React.js Study Notes&via=ZibingH"
+   target="_blank">
+  share it with your followers</a>
+or
+<a href="https://twitter.com/ZibingH">
+  follow me on Twitter</a>!
+</p>
+
+                <div id="disqus_thread"></div>
+<script>
+/**
+* RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+* LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL; // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+
+s.src = '//aaronice.disqus.com/embed.js';
+
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+
+            </div>
+        </div>
+    </div>
+</article>
+
+<hr>
+
+
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    <li>
+                        <a href="/feed.xml">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://twitter.com/ZibingH">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <li>
+                        <a href="https://www.facebook.com/zibing.huang">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <li>
+                        <a href="https://github.com/aaronice">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                </ul>
+                <p class="copyright text-muted">Copyright &copy; Code Isn't Cold 2016</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="/js/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/clean-blog.min.js "></script>
+
+<!-- Disqus script -->
+<script id="dsq-count-scr" src="//aaronice.disqus.com/count.js" async></script>
+
+
+</body>
+
+    <script>
+
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-58203299-2', 'auto');
+ga('send', 'pageview');
+
+</script>
+
+
+</html>

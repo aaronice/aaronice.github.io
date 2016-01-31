@@ -1,274 +1,380 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Clean Blog</title>
-    <description>Write your site description here. It will be used as your sites meta description as well!</description>
-    <link>http://yourdomain.com/</link>
-    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 02 Jul 2015 14:45:26 -0700</pubDate>
-    <lastBuildDate>Thu, 02 Jul 2015 14:45:26 -0700</lastBuildDate>
-    <generator>Jekyll v2.5.3</generator>
+    <title>Code Isn&#39;t Cold</title>
+    <description>Zibing&#39;s blog on technology, life, thinking, etc.</description>
+    <link>aaronice.github.io/</link>
+    <atom:link href="aaronice.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sun, 31 Jan 2016 02:15:36 -0800</pubDate>
+    <lastBuildDate>Sun, 31 Jan 2016 02:15:36 -0800</lastBuildDate>
+    <generator>Jekyll v3.1.1</generator>
     
       <item>
-        <title>Man must explore, and this is exploration at its greatest</title>
-        <description>&lt;p&gt;Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman&#39;s earth, if free men make it, will be truly round: a globe in practice, not in theory.&lt;/p&gt;
-
-&lt;p&gt;Science cuts two ways, of course; its products can be used for both good and evil. But there&#39;s no turning back from science. The early warnings about technological dangers also come from science.&lt;/p&gt;
-
-&lt;p&gt;What was most significant about the lunar voyage was not that man set foot on the Moon but that they set eye on the earth.&lt;/p&gt;
-
-&lt;p&gt;A Chinese tale tells of some men sent to harm a young girl who, upon seeing her beauty, become her protectors rather than her violators. That&#39;s how I felt seeing the Earth for the first time. I could not help but love and cherish her.&lt;/p&gt;
-
-&lt;p&gt;For those who have seen the Earth from space, and for the hundreds and perhaps thousands more who will, the experience most certainly changes your perspective. The things that we share in our world are far more valuable than those which divide us.&lt;/p&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;The Final Frontier&lt;/h2&gt;
-
-&lt;p&gt;There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.&lt;/p&gt;
-
-&lt;p&gt;There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.&lt;/p&gt;
-
-&lt;blockquote&gt;The dreams of yesterday are the hopes of today and the reality of tomorrow. Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next ten.&lt;/blockquote&gt;
-
-&lt;p&gt;Spaceflights cannot be stopped. This is not the work of any one man or even a group of men. It is a historical process which mankind is carrying out in accordance with the natural laws of human development.&lt;/p&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;Reaching for the Stars&lt;/h2&gt;
-
-&lt;p&gt;As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would crumble and fall apart. Seeing this has to change a man.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/post-sample-image.jpg&quot; alt=&quot;Post Sample Image&quot; /&gt;
-&lt;/a&gt;
-&lt;span class=&quot;caption text-muted&quot;&gt;To go places and do things that have never been done before – that’s what living is all about.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no man has gone before.&lt;/p&gt;
-
-&lt;p&gt;As I stand out here in the wonders of the unknown at Hadley, I sort of realize there’s a fundamental truth to our nature, Man must explore, and this is exploration at its greatest.&lt;/p&gt;
-
-&lt;p&gt;Placeholder text by &lt;a href=&quot;http://spaceipsum.com/&quot;&gt;Space Ipsum&lt;/a&gt;. Photographs by &lt;a href=&quot;https://www.flickr.com/photos/nasacommons/&quot;&gt;NASA on The Commons&lt;/a&gt;.&lt;/p&gt;
+        <title>Flux Architecture</title>
+        <description>
 </description>
-        <pubDate>Wed, 24 Sep 2014 05:00:00 -0700</pubDate>
-        <link>http://yourdomain.com/2014/09/24/man-must-explore/</link>
-        <guid isPermaLink="true">http://yourdomain.com/2014/09/24/man-must-explore/</guid>
+        <pubDate>Mon, 04 Jan 2016 04:00:00 -0800</pubDate>
+        <link>aaronice.github.io/2016/01/04/flux-architecture/</link>
+        <guid isPermaLink="true">aaronice.github.io/2016/01/04/flux-architecture/</guid>
         
         
       </item>
     
       <item>
-        <title>I believe every human has a finite number of heartbeats. I don&#39;t intend to waste any of mine.</title>
-        <description>&lt;p&gt;Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman&#39;s earth, if free men make it, will be truly round: a globe in practice, not in theory.&lt;/p&gt;
+        <title>React.js Study Notes</title>
+        <description>&lt;h1 id=&quot;reactjs-study-notes&quot;&gt;React.js Study Notes&lt;/h1&gt;
 
-&lt;p&gt;Science cuts two ways, of course; its products can be used for both good and evil. But there&#39;s no turning back from science. The early warnings about technological dangers also come from science.&lt;/p&gt;
+&lt;hr /&gt;
 
-&lt;p&gt;What was most significant about the lunar voyage was not that man set foot on the Moon but that they set eye on the earth.&lt;/p&gt;
+&lt;h2 id=&quot;introduction-to-react&quot;&gt;Introduction to React&lt;/h2&gt;
 
-&lt;p&gt;A Chinese tale tells of some men sent to harm a young girl who, upon seeing her beauty, become her protectors rather than her violators. That&#39;s how I felt seeing the Earth for the first time. I could not help but love and cherish her.&lt;/p&gt;
+&lt;p&gt;React Official Page: https://facebook.github.io/react/&lt;/p&gt;
 
-&lt;p&gt;For those who have seen the Earth from space, and for the hundreds and perhaps thousands more who will, the experience most certainly changes your perspective. The things that we share in our world are far more valuable than those which divide us.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;React is a JavaScript library for creating user interfaces by Facebook and Instagram. Many people choose to think of React as the &lt;strong&gt;V&lt;/strong&gt; in &lt;a href=&quot;https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller&quot;&gt;&lt;strong&gt;MVC&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;h2 class=&quot;section-heading&quot;&gt;The Final Frontier&lt;/h2&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;React is built to solve one problem: &lt;strong&gt;building large applications with data that changes over time.&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;p&gt;There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;React is all about building reusable components.&lt;/strong&gt; - &lt;a href=&quot;https://facebook.github.io/react/docs/why-react.html&quot;&gt;React.js&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;p&gt;There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.&lt;/p&gt;
+&lt;h4 id=&quot;think-in-react&quot;&gt;Think in React&lt;/h4&gt;
 
-&lt;blockquote&gt;The dreams of yesterday are the hopes of today and the reality of tomorrow. Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next ten.&lt;/blockquote&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Components are Just State Machines&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Spaceflights cannot be stopped. This is not the work of any one man or even a group of men. It is a historical process which mankind is carrying out in accordance with the natural laws of human development.&lt;/p&gt;
+  &lt;p&gt;React thinks of UIs as simple &lt;em&gt;state machines&lt;/em&gt;. By thinking of a UI as being in various states and rendering those states, it’s easy to keep your UI consistent.&lt;/p&gt;
 
-&lt;h2 class=&quot;section-heading&quot;&gt;Reaching for the Stars&lt;/h2&gt;
+  &lt;p&gt;In React, you simply update a component’s &lt;code&gt;state&lt;/code&gt;, and then render a new UI based on this new state. React takes care of updating the DOM for you in the most efficient way.&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;p&gt;As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would crumble and fall apart. Seeing this has to change a man.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;About React.js&lt;/strong&gt;
+- Open source, but maintained by Facebook
+- Can be the “V” (view) in MVC
+- Ideal for large-scale, single page applications
+- Uses a high speed virtual DOM
+- Options to use clean and easy-to-understand JSX syntax&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/post-sample-image.jpg&quot; alt=&quot;Post Sample Image&quot; /&gt;
-&lt;/a&gt;
-&lt;span class=&quot;caption text-muted&quot;&gt;To go places and do things that have never been done before – that’s what living is all about.&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;environment-setup&quot;&gt;Environment Setup&lt;/h2&gt;
+&lt;p&gt;Actually it’s possible to create a React.js app without installing &lt;code&gt;npm&lt;/code&gt;.&lt;/p&gt;
 
-&lt;p&gt;Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no man has gone before.&lt;/p&gt;
+&lt;p&gt;By using content delivery network, we can add following snippet to an HTML file to enable React.js:&lt;/p&gt;
 
-&lt;p&gt;As I stand out here in the wonders of the unknown at Hadley, I sort of realize there’s a fundamental truth to our nature, Man must explore, and this is exploration at its greatest.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/react/0.14.0/react.js&quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/react/0.14.0/react-dom.js&quot;&amp;gt;&amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;An alternative is to use &lt;a href=&quot;https://babeljs.io/&quot;&gt;Babel&lt;/a&gt; with &lt;a href=&quot;gulpjs.com&quot;&gt;Gulp&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;Placeholder text by &lt;a href=&quot;http://spaceipsum.com/&quot;&gt;Space Ipsum&lt;/a&gt;. Photographs by &lt;a href=&quot;https://www.flickr.com/photos/nasacommons/&quot;&gt;NASA on The Commons&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;displaying-data&quot;&gt;Displaying Data&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The way we are able to figure this out is that React does not manipulate the DOM unless it needs to. &lt;strong&gt;It uses a fast, internal mock DOM to perform diffs and computes the most efficient DOM mutation for you.&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;React
+ReactDOM&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Why is React So Fast?&lt;/strong&gt;
+- Javascript Objects are faster than DOM objects
+- The React virtual DOM is a Javascript object
+- React never reads from the “real” DOM
+- React only writes to the real DOM if needed.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;jsx&quot;&gt;JSX&lt;/h2&gt;
+
+&lt;p&gt;In-browser JSX Transformer
+- It’s great for development, but will take extra time for production code
+React tools
+- Good for production, pre-process the JSX&lt;/p&gt;
+
+&lt;p&gt;Pre-process
+- Good for production&lt;/p&gt;
+
+&lt;h3 id=&quot;rendering-component&quot;&gt;Rendering Component&lt;/h3&gt;
+&lt;p&gt;It allows maximum of one node to be returned in render function.&lt;/p&gt;
+
+&lt;p&gt;The following example will get syntax error:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-javascript&quot;&gt;var Optimistic = React.createClass({
+  render: function() {
+    return (
+      &amp;lt;h1&amp;gt;{this.props.name} loves React&amp;lt;/h1&amp;gt;
+      &amp;lt;p&amp;gt;React doesn’t. Idea: sprinkle some divs here and there.&amp;lt;/p&amp;gt;
+    );
+  }
+});
+
+React.render(
+  &amp;lt;Optimistic name=&quot;Peter&quot; /&amp;gt;,
+  document.getElementById(&#39;myContainer&#39;)
+);
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;component-specs-and-lifecycle&quot;&gt;Component Specs and Lifecycle&lt;/h2&gt;
+
+&lt;h3 id=&quot;component-specifications&quot;&gt;Component Specifications&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code&gt;render()&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;getInitialState()&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;propTypes&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;mixins&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;statics&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code&gt;displayName&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;lifecycle-methods&quot;&gt;Lifecycle Methods&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Mounting: &lt;code&gt;componentWillMount&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Mounting:&lt;code&gt;componentDidMount&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Updating: &lt;code&gt;componentWillReceiveProps&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Updating: &lt;code&gt;shouldComponentUpdate&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Updating: &lt;code&gt;componentWillUpdate&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Updating: &lt;code&gt;componentDidUpdate&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;Unmounting: &lt;code&gt;componentWillUnmount&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;component-lifecycle&quot;&gt;Component Lifecycle&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://cdn4.infoqstatic.com/statics_s1_20151111-0209/resource/articles/react-jsx-and-component/zh/resources/0702001.png&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Based on &lt;a href=&quot;http://javascript.tutorialhorizon.com/2014/09/13/execution-sequence-of-a-react-components-lifecycle-methods/&quot;&gt;&lt;strong&gt;Execution sequence of a React component’s lifecycle methods&lt;/strong&gt;&lt;/a&gt;, four scenarios need to be aware of the life­cy­cle meth­ods:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Ini­tial Ren­der&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://camo.githubusercontent.com/461765618c95d7d3d0941d767a95855cb5698195/687474703a2f2f7279616e73756b616c652e636f6d2f76697a2f74682f6a732f72656163746a735f636f6d706f6e656e745f6c6966656379636c652f696e697469616c5f72656e6465722e706e67&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Props Change&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://camo.githubusercontent.com/89a1b3c9ec4282045c095b5e74c296de7165955a/687474703a2f2f7279616e73756b616c652e636f6d2f76697a2f74682f6a732f72656163746a735f636f6d706f6e656e745f6c6966656379636c652f70726f70735f6368616e67652e706e67&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;State Change&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://camo.githubusercontent.com/10de2955e68ca334679daf4cf821b18b5364f029/687474703a2f2f7279616e73756b616c652e636f6d2f76697a2f74682f6a732f72656163746a735f636f6d706f6e656e745f6c6966656379636c652f73746174655f6368616e67652e706e67&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Com­po­nent Unmount&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://camo.githubusercontent.com/c0390065e7dcd4e75ad6a146db705f8a23826716/687474703a2f2f7279616e73756b616c652e636f6d2f76697a2f74682f6a732f72656163746a735f636f6d706f6e656e745f6c6966656379636c652f756e6d6f756e742e706e67&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The following code snippet con­tains all the life­cy­cle meth­ods and other fre­quenly used method that you can use as start­ing point for cre­at­ing your com­po­nents.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-javascript&quot;&gt;//@jsx React.DOM
+
+var React = require(&#39;react&#39;),
+    MyReactComponent = React.createClass({
+
+    // The object returned by this method sets the initial value of this.state
+    getInitialState: function(){
+        return {};
+    },
+
+    // The object returned by this method sets the initial value of this.props
+    // If a complex object is returned, it is shared among all component instances
+    getDefaultProps: function(){
+        return {};
+    },
+
+    // Returns the jsx markup for a component
+    // Inspects this.state and this.props create the markup
+    // Should never update this.state or this.props
+    render: function(){
+        return (&amp;lt;div&amp;gt;&amp;lt;/div&amp;gt;);
+    },
+
+    // An array of objects each of which can augment the lifecycle methods
+    mixins: [],
+
+    // Functions that can be invoked on the component without creating instances
+    statics: {
+        aStaticFunction: function(){}
+    },
+
+    // -- Lifecycle Methods --
+
+    // Invoked once before first render
+    componentWillMount: function(){
+        // Calling setState here does not cause a re-render
+    },
+
+    // Invoked once after the first render
+    componentDidMount: function(){
+        // You now have access to this.getDOMNode()
+    },
+
+    // Invoked whenever there is a prop change
+    // Called BEFORE render
+    componentWillReceiveProps: function(nextProps){
+        // Not called for the initial render
+        // Previous props can be accessed by this.props
+        // Calling setState here does not trigger an an additional re-render
+    },
+
+    // Determines if the render method should run in the subsequent step
+    // Called BEFORE a render
+    // Not called for the initial render
+    shouldComponentUpdate: function(nextProps, nextState){
+        // If you want the render method to execute in the next step
+        // return true, else return false
+        return true;
+    },
+
+    // Called IMMEDIATELY BEFORE a render
+    componentWillUpdate: function(nextProps, nextState){
+        // You cannot use this.setState() in this method
+    },
+
+    // Called IMMEDIATELY AFTER a render
+    componentDidUpdate: function(prevProps, prevState){
+    },
+
+    // Called IMMEDIATELY before a component is unmounted
+    componentWillUnmount: function(){
+    }
+
+});
+
+module.exports = MyReactComponent;
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;tips&quot;&gt;Tips&lt;/h2&gt;
+
+&lt;h3 id=&quot;reactdomrender-vs-reactrender&quot;&gt;ReactDOM.render() vs React.render()&lt;/h3&gt;
+
+&lt;p&gt;From &lt;a href=&quot;https://facebook.github.io/react/blog/2015/10/01/react-render-and-top-level-api.html&quot;&gt;ReactDOM.render and the Top Level React API&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;When you’re in React’s world you are just building components that fit into other components. Everything is a component. Unfortunately not everything around you is built using React. At the root of your tree you still have to write some plumbing code to connect the outer world into React.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The primary API for rendering into the DOM looks like this:&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;~~~ReactDOM.render(reactElement, domContainerNode)~~~&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;To update the properties of an existing component, you call render again with a new element.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;If you are rendering React components within a single-page app, you may need to plug into the app’s view lifecycle to ensure your app will invoke &lt;code&gt;unmountComponentAtNode&lt;/code&gt; at the appropriate time. &lt;strong&gt;React will not automatically clean up a tree&lt;/strong&gt;. You need to manually call:&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;~~~ReactDOM.unmountComponentAtNode(domContainerNode)~~~
+This is important and often forgotten. Forgetting to call unmountComponentAtNode will cause your app to &lt;strong&gt;leak memory&lt;/strong&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;difference-between-state-and-props-in-reactjs&quot;&gt;Difference between state and props in React.js&lt;/h3&gt;
+
+&lt;p&gt;Some discussion on StackOverflow:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://stackoverflow.com/questions/27991366/what-is-the-difference-between-state-and-props-in-react&quot;&gt;What is the difference between state and props in React?&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://stackoverflow.com/questions/23481061/reactjs-state-vs-prop&quot;&gt;ReactJS state vs prop&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/uberVU/react-guide/blob/master/props-vs-state.md&quot;&gt;props vs state&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;On React.js Official Website:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;h4 id=&quot;a-brief-interlude-props-vs-state&quot;&gt;A brief interlude: props vs state&lt;/h4&gt;
+  &lt;p&gt;There are two types of “model” data in React: &lt;code&gt;props&lt;/code&gt; and &lt;code&gt;state&lt;/code&gt;. It’s important to understand the distinction between the two; skim the &lt;a href=&quot;https://facebook.github.io/react/docs/interactivity-and-dynamic-uis.html&quot;&gt;official React docs&lt;/a&gt; if you aren’t sure what the difference is.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;To understand the difference between &lt;code&gt;props&lt;/code&gt; and &lt;code&gt;state&lt;/code&gt;, we have to know what they are in the first place.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://facebook.github.io/react/docs/interactivity-and-dynamic-uis.html&quot;&gt;Link to the article&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Some helpful extracts from the article:&lt;/p&gt;
+
+&lt;h4 id=&quot;how-state-works&quot;&gt;How State Works&lt;/h4&gt;
+&lt;p&gt;A common way to inform React of a data change is by calling &lt;code&gt;setState(data, callback)&lt;/code&gt;. This method merges &lt;code&gt;data&lt;/code&gt; into &lt;code&gt;this.state&lt;/code&gt; and re-renders the component. When the component finishes re-rendering, the optional &lt;code&gt;callback&lt;/code&gt; is called. Most of the time you’ll never need to provide a &lt;code&gt;callback&lt;/code&gt; since React will take care of keeping your UI up-to-date for you.&lt;/p&gt;
+
+&lt;h4 id=&quot;what-components-should-have-state&quot;&gt;What Components Should Have State?&lt;/h4&gt;
+
+&lt;p&gt;Most of your components should simply take some data from &lt;code&gt;props&lt;/code&gt; and render it. However, sometimes you need to respond to &lt;strong&gt;user input&lt;/strong&gt;, &lt;strong&gt;a server request&lt;/strong&gt; or &lt;strong&gt;the passage of time&lt;/strong&gt;. For this you use &lt;code&gt;state&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Try to keep as many of your components as possible &lt;em&gt;stateless&lt;/em&gt;&lt;/strong&gt;. By doing this you’ll isolate the state to its most logical place and minimize redundancy, making it easier to reason about your application.&lt;/p&gt;
+
+&lt;p&gt;A common pattern is to create several &lt;em&gt;&lt;code&gt;stateless&lt;/code&gt; components that just render data&lt;/em&gt;, and have a &lt;em&gt;&lt;code&gt;stateful&lt;/code&gt; component above them in the hierarchy that passes its &lt;code&gt;state&lt;/code&gt; to its children via &lt;code&gt;props&lt;/code&gt;&lt;/em&gt;. The stateful component encapsulates all of the &lt;strong&gt;interaction logic&lt;/strong&gt;, while the stateless components take care of &lt;strong&gt;rendering data&lt;/strong&gt; in a declarative way.&lt;/p&gt;
+
+&lt;h4 id=&quot;what-should-go-in-state&quot;&gt;What Should Go in State?&lt;/h4&gt;
+
+&lt;p&gt;&lt;strong&gt;State should contain data that a component’s event handlers may change to trigger a UI update&lt;/strong&gt;. In real apps this data tends to be very small and JSON-serializable. When building a stateful component, think about the minimal possible representation of its state, and only store those properties in &lt;code&gt;this.state&lt;/code&gt;. Inside of &lt;code&gt;render() &lt;/code&gt; simply compute any other information you need based on this state. You’ll find that thinking about and writing applications in this way tends to lead to the most correct application, since adding redundant or computed values to state means that you need to explicitly keep them in sync rather than rely on React computing them for you.&lt;/p&gt;
+
+&lt;h4 id=&quot;what-shouldnt-go-in-state&quot;&gt;What Shouldn’t Go in State?&lt;/h4&gt;
+
+&lt;p&gt;this.state should only contain the minimal amount of data needed to represent your UI’s state. As such, it should not contain:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;Computed data&lt;/strong&gt;: Don’t worry about precomputing values based on state — it’s easier to ensure that your UI is consistent if you do all computation within &lt;code&gt;render()&lt;/code&gt;. For example, if you have an array of list items in state and you want to render the count as a string, simply render &lt;code&gt;this.state.listItems.length + &#39; list items&#39;&lt;/code&gt; in your render() method rather than storing it on state.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;React components&lt;/strong&gt;: Build them in &lt;code&gt;render()&lt;/code&gt; based on underlying props and state.&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Duplicated data from props&lt;/strong&gt;: Try to use props as the source of truth where possible. One valid use to store props in state is to be able to know its previous values, because props may change as the result of a parent component re-rendering.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;loop-and-render-node-elements-in-reactjs&quot;&gt;Loop and render node (elements) in React.js&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://stackoverflow.com/questions/29149169/how-to-loop-and-render-elements-in-react-js-without-an-array-of-objects-to-map&quot;&gt;Q&amp;amp;A on StackOverflow&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Because of &lt;a href=&quot;http://facebook.github.io/react/tips/maximum-number-of-jsx-root-nodes.html&quot;&gt;&lt;strong&gt;Maximum Number of JSX Root Nodes&lt;/strong&gt;&lt;/a&gt;, the return value needs to be wrapped in a container, such as &lt;code&gt;&amp;lt;div&amp;gt;&amp;lt;/div&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;by Dhiraj Bodicherla&lt;/em&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-javascript&quot;&gt;render: function() {
+  var indents = [];
+  for (var i = 0; i &amp;lt; this.props.level; i++) {
+    indents.push(&amp;lt;span className=&#39;indent&#39;&amp;gt;&amp;lt;/span&amp;gt;);
+  }
+  return (
+     &amp;lt;div&amp;gt;
+      {indents}
+      &quot;Some text value&quot;
+     &amp;lt;/div&amp;gt;
+  );
+}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Another &lt;a href=&quot;http://stackoverflow.com/questions/22876978/loop-inside-react-jsx&quot;&gt;example&lt;/a&gt; for loop in React.js&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&quot;language-javascript&quot;&gt;var rows = [];
+for (var i=0; i &amp;lt; numrows; i++) {
+    rows.push(&amp;lt;ObjectRow /&amp;gt;);
+}
+return &amp;lt;tbody&amp;gt;{rows}&amp;lt;/tbody&amp;gt;;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;React.js provides a new way of working with HTML, CSS, and Javascript, the components can be easily re-used, while the virtual DOM concept provides performance improvements on DOM operations. It’s totally fine to write React component working with legacy code, however, it can be hard to manage the data flow and states as the complexity of the project grows. Therefore, a systematic approach, such as an architecture is much needed for a React.js front-end project. In following post, I’ll talk about an architecture, well, it’s not the well-know MVC, in fact, it’s also introduced by Facebook, the &lt;a href=&quot;https://facebook.github.io/flux/&quot;&gt;&lt;strong&gt;Flux&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
 </description>
-        <pubDate>Thu, 18 Sep 2014 05:00:00 -0700</pubDate>
-        <link>http://yourdomain.com/2014/09/18/i-believe/</link>
-        <guid isPermaLink="true">http://yourdomain.com/2014/09/18/i-believe/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Science has not yet mastered prophecy</title>
-        <description>&lt;p&gt;Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman&#39;s earth, if free men make it, will be truly round: a globe in practice, not in theory.&lt;/p&gt;
-
-&lt;p&gt;Science cuts two ways, of course; its products can be used for both good and evil. But there&#39;s no turning back from science. The early warnings about technological dangers also come from science.&lt;/p&gt;
-
-&lt;p&gt;What was most significant about the lunar voyage was not that man set foot on the Moon but that they set eye on the earth.&lt;/p&gt;
-
-&lt;p&gt;A Chinese tale tells of some men sent to harm a young girl who, upon seeing her beauty, become her protectors rather than her violators. That&#39;s how I felt seeing the Earth for the first time. I could not help but love and cherish her.&lt;/p&gt;
-
-&lt;p&gt;For those who have seen the Earth from space, and for the hundreds and perhaps thousands more who will, the experience most certainly changes your perspective. The things that we share in our world are far more valuable than those which divide us.&lt;/p&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;The Final Frontier&lt;/h2&gt;
-
-&lt;p&gt;There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.&lt;/p&gt;
-
-&lt;p&gt;There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.&lt;/p&gt;
-
-&lt;blockquote&gt;The dreams of yesterday are the hopes of today and the reality of tomorrow. Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next ten.&lt;/blockquote&gt;
-
-&lt;p&gt;Spaceflights cannot be stopped. This is not the work of any one man or even a group of men. It is a historical process which mankind is carrying out in accordance with the natural laws of human development.&lt;/p&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;Reaching for the Stars&lt;/h2&gt;
-
-&lt;p&gt;As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would crumble and fall apart. Seeing this has to change a man.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/post-sample-image.jpg&quot; alt=&quot;Post Sample Image&quot; /&gt;
-&lt;/a&gt;
-&lt;span class=&quot;caption text-muted&quot;&gt;To go places and do things that have never been done before – that’s what living is all about.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no man has gone before.&lt;/p&gt;
-
-&lt;p&gt;As I stand out here in the wonders of the unknown at Hadley, I sort of realize there’s a fundamental truth to our nature, Man must explore, and this is exploration at its greatest.&lt;/p&gt;
-
-&lt;p&gt;Placeholder text by &lt;a href=&quot;http://spaceipsum.com/&quot;&gt;Space Ipsum&lt;/a&gt;. Photographs by &lt;a href=&quot;https://www.flickr.com/photos/nasacommons/&quot;&gt;NASA on The Commons&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Sun, 24 Aug 2014 05:00:00 -0700</pubDate>
-        <link>http://yourdomain.com/2014/08/24/science-has-not-yet-mastered-prophecy/</link>
-        <guid isPermaLink="true">http://yourdomain.com/2014/08/24/science-has-not-yet-mastered-prophecy/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Failure is not an option</title>
-        <description>&lt;p&gt;Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman&#39;s earth, if free men make it, will be truly round: a globe in practice, not in theory.&lt;/p&gt;
-
-&lt;p&gt;Science cuts two ways, of course; its products can be used for both good and evil. But there&#39;s no turning back from science. The early warnings about technological dangers also come from science.&lt;/p&gt;
-
-&lt;p&gt;What was most significant about the lunar voyage was not that man set foot on the Moon but that they set eye on the earth.&lt;/p&gt;
-
-&lt;p&gt;A Chinese tale tells of some men sent to harm a young girl who, upon seeing her beauty, become her protectors rather than her violators. That&#39;s how I felt seeing the Earth for the first time. I could not help but love and cherish her.&lt;/p&gt;
-
-&lt;p&gt;For those who have seen the Earth from space, and for the hundreds and perhaps thousands more who will, the experience most certainly changes your perspective. The things that we share in our world are far more valuable than those which divide us.&lt;/p&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;The Final Frontier&lt;/h2&gt;
-
-&lt;p&gt;There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.&lt;/p&gt;
-
-&lt;p&gt;There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.&lt;/p&gt;
-
-&lt;blockquote&gt;The dreams of yesterday are the hopes of today and the reality of tomorrow. Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next ten.&lt;/blockquote&gt;
-
-&lt;p&gt;Spaceflights cannot be stopped. This is not the work of any one man or even a group of men. It is a historical process which mankind is carrying out in accordance with the natural laws of human development.&lt;/p&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;Reaching for the Stars&lt;/h2&gt;
-
-&lt;p&gt;As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would crumble and fall apart. Seeing this has to change a man.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/post-sample-image.jpg&quot; alt=&quot;Post Sample Image&quot; /&gt;
-&lt;/a&gt;
-&lt;span class=&quot;caption text-muted&quot;&gt;To go places and do things that have never been done before – that’s what living is all about.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no man has gone before.&lt;/p&gt;
-
-&lt;p&gt;As I stand out here in the wonders of the unknown at Hadley, I sort of realize there’s a fundamental truth to our nature, Man must explore, and this is exploration at its greatest.&lt;/p&gt;
-
-&lt;p&gt;Placeholder text by &lt;a href=&quot;http://spaceipsum.com/&quot;&gt;Space Ipsum&lt;/a&gt;. Photographs by &lt;a href=&quot;https://www.flickr.com/photos/nasacommons/&quot;&gt;NASA on The Commons&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 08 Jul 2014 05:00:00 -0700</pubDate>
-        <link>http://yourdomain.com/2014/07/08/failure-is-not-an-option/</link>
-        <guid isPermaLink="true">http://yourdomain.com/2014/07/08/failure-is-not-an-option/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>The dreams of yesterday are the hopes of today and the reality of tomorrow.</title>
-        <description>&lt;p&gt;Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman&#39;s earth, if free men make it, will be truly round: a globe in practice, not in theory.&lt;/p&gt;
-
-&lt;p&gt;Science cuts two ways, of course; its products can be used for both good and evil. But there&#39;s no turning back from science. The early warnings about technological dangers also come from science.&lt;/p&gt;
-
-&lt;p&gt;What was most significant about the lunar voyage was not that man set foot on the Moon but that they set eye on the earth.&lt;/p&gt;
-
-&lt;p&gt;A Chinese tale tells of some men sent to harm a young girl who, upon seeing her beauty, become her protectors rather than her violators. That&#39;s how I felt seeing the Earth for the first time. I could not help but love and cherish her.&lt;/p&gt;
-
-&lt;p&gt;For those who have seen the Earth from space, and for the hundreds and perhaps thousands more who will, the experience most certainly changes your perspective. The things that we share in our world are far more valuable than those which divide us.&lt;/p&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;The Final Frontier&lt;/h2&gt;
-
-&lt;p&gt;There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.&lt;/p&gt;
-
-&lt;p&gt;There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.&lt;/p&gt;
-
-&lt;blockquote&gt;The dreams of yesterday are the hopes of today and the reality of tomorrow. Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next ten.&lt;/blockquote&gt;
-
-&lt;p&gt;Spaceflights cannot be stopped. This is not the work of any one man or even a group of men. It is a historical process which mankind is carrying out in accordance with the natural laws of human development.&lt;/p&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;Reaching for the Stars&lt;/h2&gt;
-
-&lt;p&gt;As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would crumble and fall apart. Seeing this has to change a man.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/post-sample-image.jpg&quot; alt=&quot;Post Sample Image&quot; /&gt;
-&lt;/a&gt;
-&lt;span class=&quot;caption text-muted&quot;&gt;To go places and do things that have never been done before – that’s what living is all about.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no man has gone before.&lt;/p&gt;
-
-&lt;p&gt;As I stand out here in the wonders of the unknown at Hadley, I sort of realize there’s a fundamental truth to our nature, Man must explore, and this is exploration at its greatest.&lt;/p&gt;
-
-&lt;p&gt;Placeholder text by &lt;a href=&quot;http://spaceipsum.com/&quot;&gt;Space Ipsum&lt;/a&gt;. Photographs by &lt;a href=&quot;https://www.flickr.com/photos/nasacommons/&quot;&gt;NASA on The Commons&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 01 Jul 2014 05:00:00 -0700</pubDate>
-        <link>http://yourdomain.com/2014/07/01/dreams/</link>
-        <guid isPermaLink="true">http://yourdomain.com/2014/07/01/dreams/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Dinosaurs are extinct today</title>
-        <description>&lt;p&gt;Never in all their history have men been able truly to conceive of the world as one: a single sphere, a globe, having the qualities of a globe, a round earth in which all the directions eventually meet, in which there is no center because every point, or none, is center — an equal earth which all men occupy as equals. The airman&#39;s earth, if free men make it, will be truly round: a globe in practice, not in theory.&lt;/p&gt;
-
-&lt;p&gt;Science cuts two ways, of course; its products can be used for both good and evil. But there&#39;s no turning back from science. The early warnings about technological dangers also come from science.&lt;/p&gt;
-
-&lt;p&gt;What was most significant about the lunar voyage was not that man set foot on the Moon but that they set eye on the earth.&lt;/p&gt;
-
-&lt;p&gt;A Chinese tale tells of some men sent to harm a young girl who, upon seeing her beauty, become her protectors rather than her violators. That&#39;s how I felt seeing the Earth for the first time. I could not help but love and cherish her.&lt;/p&gt;
-
-&lt;p&gt;For those who have seen the Earth from space, and for the hundreds and perhaps thousands more who will, the experience most certainly changes your perspective. The things that we share in our world are far more valuable than those which divide us.&lt;/p&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;The Final Frontier&lt;/h2&gt;
-
-&lt;p&gt;There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.&lt;/p&gt;
-
-&lt;p&gt;There can be no thought of finishing for ‘aiming for the stars.’ Both figuratively and literally, it is a task to occupy the generations. And no matter how much progress one makes, there is always the thrill of just beginning.&lt;/p&gt;
-
-&lt;blockquote&gt;The dreams of yesterday are the hopes of today and the reality of tomorrow. Science has not yet mastered prophecy. We predict too much for the next year and yet far too little for the next ten.&lt;/blockquote&gt;
-
-&lt;p&gt;Spaceflights cannot be stopped. This is not the work of any one man or even a group of men. It is a historical process which mankind is carrying out in accordance with the natural laws of human development.&lt;/p&gt;
-
-&lt;h2 class=&quot;section-heading&quot;&gt;Reaching for the Stars&lt;/h2&gt;
-
-&lt;p&gt;As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would crumble and fall apart. Seeing this has to change a man.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;#&quot;&gt;
-    &lt;img src=&quot;/img/post-sample-image.jpg&quot; alt=&quot;Post Sample Image&quot; /&gt;
-&lt;/a&gt;
-&lt;span class=&quot;caption text-muted&quot;&gt;To go places and do things that have never been done before – that’s what living is all about.&lt;/span&gt;&lt;/p&gt;
-
-&lt;p&gt;Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no man has gone before.&lt;/p&gt;
-
-&lt;p&gt;As I stand out here in the wonders of the unknown at Hadley, I sort of realize there’s a fundamental truth to our nature, Man must explore, and this is exploration at its greatest.&lt;/p&gt;
-
-&lt;p&gt;Placeholder text by &lt;a href=&quot;http://spaceipsum.com/&quot;&gt;Space Ipsum&lt;/a&gt;. Photographs by &lt;a href=&quot;https://www.flickr.com/photos/nasacommons/&quot;&gt;NASA on The Commons&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 10 Jun 2014 05:00:00 -0700</pubDate>
-        <link>http://yourdomain.com/2014/06/10/dinosaurs/</link>
-        <guid isPermaLink="true">http://yourdomain.com/2014/06/10/dinosaurs/</guid>
+        <pubDate>Tue, 15 Dec 2015 04:00:00 -0800</pubDate>
+        <link>aaronice.github.io/2015/12/15/react-study/</link>
+        <guid isPermaLink="true">aaronice.github.io/2015/12/15/react-study/</guid>
         
         
       </item>

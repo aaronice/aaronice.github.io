@@ -4,7 +4,7 @@ title:      "React.js Study Notes"
 subtitle:   "Notes of learning React.js library"
 date:       2015-12-15 12:00:00
 author:     "Zibing"
-header-img: "img/post-bg-06.jpg"
+header-img: ""
 ---
 
 
