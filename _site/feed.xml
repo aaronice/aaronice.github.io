@@ -5,8 +5,8 @@
     <description>Zibing&#39;s blog on technology, life, thinking, etc.</description>
     <link>aaronice.github.io/</link>
     <atom:link href="aaronice.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 31 Jan 2016 03:51:10 -0800</pubDate>
-    <lastBuildDate>Sun, 31 Jan 2016 03:51:10 -0800</lastBuildDate>
+    <pubDate>Sun, 31 Jan 2016 14:07:20 -0800</pubDate>
+    <lastBuildDate>Sun, 31 Jan 2016 14:07:20 -0800</lastBuildDate>
     <generator>Jekyll v3.1.1</generator>
     
       <item>
@@ -16,6 +16,33 @@
         <pubDate>Mon, 04 Jan 2016 04:00:00 -0800</pubDate>
         <link>aaronice.github.io/2016/01/04/flux-architecture/</link>
         <guid isPermaLink="true">aaronice.github.io/2016/01/04/flux-architecture/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Node Interactive 2015 Recap</title>
+        <description>&lt;h1 id=&quot;node-interactive-2015-recap&quot;&gt;Node Interactive 2015 Recap&lt;/h1&gt;
+
+&lt;p&gt;Node Interactive 2015 is the Node.js Foundation lead conference.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-adoption-trend&quot;&gt;The Adoption Trend&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;With Node.js being used in 98% of the Fortune 500 companies regularly, the event will also highlight the maturation of the technology within enterprises.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Capital One, GoDaddy, Intel, NodeSource, NPM and Uber are using Node.js to meet their innovation needs&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Startups are leading the way in adding Node.js into their strategy, but in 2013 and 2014 larger incumbents started to transition their stacks with Node.js as a core technology, notable names include PayPal, Condé Nast, and Costa.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Sat, 19 Dec 2015 04:00:00 -0800</pubDate>
+        <link>aaronice.github.io/2015/12/19/node-interactive-recap/</link>
+        <guid isPermaLink="true">aaronice.github.io/2015/12/19/node-interactive-recap/</guid>
         
         
       </item>
