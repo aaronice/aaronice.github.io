@@ -8,9 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Zibing's blog on technology, life, thinking, etc.">
 
-    <title>Flux Architecture - Code Is Not Cold</title>
+    <title>Node Interactive 2015 Recap - Code Is Not Cold</title>
 
-    <link rel="canonical" href="aaronice.github.io/2016/01/04/flux-architecture/">
+    <link rel="canonical" href="aaronice.github.io/2015/12/19/node-interactive-recap/">
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -79,16 +79,16 @@
 
 
     <!-- Post Header -->
-<header class="intro-header" style="background-image: url('/')">
+<header class="intro-header" style="background-image: url('/img/post-bg-portland.jpg')">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <div class="post-heading">
-                    <h1>Flux Architecture</h1>
+                    <h1>Node Interactive 2015 Recap</h1>
                     
-                    <h2 class="subheading">Brief introduction to Flux architecture</h2>
+                    <h2 class="subheading">Notes on Node Interactive Conference held on Dec 8, 9 in Portland, OR</h2>
                     
-                    <span class="meta">Posted by aaronice on January 4, 2016</span>
+                    <span class="meta">Posted by aaronice on December 19, 2015</span>
                 </div>
             </div>
         </div>
@@ -101,7 +101,213 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 
-                
+                <h1 id="node-interactive-2015-recap">Node Interactive 2015 Recap</h1>
+
+<p>Node Interactive 2015 is the Node.js Foundation lead conference.</p>
+
+<p>There are three major tracks of breakout sessions: Server-Side Client-Side Internet of Things</p>
+
+<p>Here are several topics excerpt from mainly the backend track.</p>
+
+<h2 id="nodejs-ecosystem">Node.js Ecosystem</h2>
+
+<p>As of Dec. 2015, there are more than 200,000 Node.js modules exist in NPM, namely, the Node,  Package, Manager.</p>
+
+<blockquote>
+  <p>NPM is the largest package manager in the world</p>
+</blockquote>
+
+<p>After the merge with io.js, the Node release version seems skyrocketed. Luckily, the good thing is Node.js has come up with the LTS version, thus making enterprise adopters more comfortable with this still new technology. While at the same time, it keeps the speed for development and evolving.</p>
+
+<p>Node.js Long Term Support Schedule</p>
+
+<p><img src="/img/node-interactive/Node_Interactive_2015_LTS.jpg" alt="" /></p>
+
+<h2 id="the-adoption-trend">The Adoption Trend</h2>
+
+<blockquote>
+  <p>With Node.js being used in 98% of the Fortune 500 companies regularly, the event will also highlight the maturation of the technology within enterprises.</p>
+</blockquote>
+
+<blockquote>
+  <p>Capital One, GoDaddy, Intel, NodeSource, NPM and Uber are using Node.js to meet their innovation needs</p>
+</blockquote>
+
+<blockquote>
+  <p>Startups are leading the way in adding Node.js into their strategy, but in 2013 and 2014 larger incumbents started to transition their stacks with Node.js as a core technology, notable names include PayPal, Condé Nast, and Costa.</p>
+</blockquote>
+
+<h2 id="nodejs-in-production">Node.js in Production</h2>
+
+<p>As the the Node.js technology develops, more and more Big companies put Node.js into production.</p>
+
+<p>Here are some notable examples (as of Dec. 2015):</p>
+
+<p><strong>Paypal</strong>: Node.js replaces Java/Spring 2012</p>
+
+<p><strong>Uber</strong>: Early adopter, Realtime API, open source: ringpop, tchannel</p>
+
+<p><strong>Netflix</strong>: Node.js, restify, React, Docker, AWS EC2 Container</p>
+
+<p><strong>IBM</strong>: Top use cases for Node are REST APIs and real time services.</p>
+
+<p><strong>Intel</strong>: IoTivity, leader in Internet of Things</p>
+
+<h2 id="debugging-nodejs-in-production">Debugging Node.js in Production</h2>
+
+<p><a href="http://www.slideshare.net/yunongx/node-interactive-debugging-nodejs-in-production">Presentation</a> by Yunong Xiao @ Netflix Node Platform</p>
+
+<p>Here are 3 issues in production and their corresponding solution:</p>
+
+<ul>
+  <li>Runtime Performance
+    <ul>
+      <li>CPU profiling/flame graphs</li>
+    </ul>
+  </li>
+  <li>Runtime Crashes
+    <ul>
+      <li>Inspect program state with core dumps</li>
+    </ul>
+  </li>
+  <li>Memory Leaks
+    <ul>
+      <li>Analyze objects and references with core dumps</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="making-your-nodejs-applications-debuggable">Making Your Node.js Applications Debuggable</h2>
+
+<p>Presentation by Patrick Mueller @ NodeSource</p>
+
+<h3 id="intro">Intro</h3>
+
+<p>Profiling Node.js mainly referring to performance(CPU) and memory.</p>
+
+<ul>
+  <li>Node Profiling:
+    <ul>
+      <li>Performance with V8 CPU profiler</li>
+      <li>Memory with V8 heap snapshots</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="performance">Performance</h3>
+<ul>
+  <li>Understanding performance
+    <ul>
+      <li>Self time - time to run the function, not including other function calls.</li>
+      <li>Total time - time to run the function, including other function calls.</li>
+    </ul>
+  </li>
+  <li>How to get CPU profiles?
+    <ul>
+      <li>npm v8-profiler (requires instrumenting your code)</li>
+      <li>npm node-inspector</li>
+      <li>StrongLoop Arc</li>
+      <li>NodeSource N Solid</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="memory">Memory</h3>
+<ul>
+  <li>What are v8 heap snapshots?
+    <ul>
+      <li>JSON file describing every reachable Javascript object in the application, taking snapshots always starts with a garbage collection</li>
+      <li>JSON files are … large</li>
+    </ul>
+  </li>
+  <li>Understanding heap snapshots
+    <ul>
+      <li>Shallow Size: The memory allocated to store the object itself</li>
+      <li>Retained Size: The size of memory that can be freed once an object deleted</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="summary">Summary</h3>
+<ul>
+  <li>Profiling performance
+    <ul>
+      <li>look for width for trace visualization</li>
+      <li>scripts: start profile, run load tester, stop profile</li>
+      <li>use node/v8 option —no-use-inlining to turn off function inlining</li>
+    </ul>
+  </li>
+  <li>Profiling memory
+    <ul>
+      <li>Easiest way to detect memory leak take memory snapshot</li>
+      <li>‘Tag’ objects you think might be leaking with easy to find class</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="nodejs-performance-optimization">Node.js Performance Optimization</h2>
+
+<p>Presentation by Bryce Baril @ NodeSource</p>
+
+<p>Purpose of performance optimization: Task Completion (User experience) &amp; Throughput (Scale)</p>
+
+<p>Proposed workflow for performance optimization:</p>
+
+<p>📝 <strong>WORKFLOW</strong> 📝</p>
+
+<blockquote>
+  <p>❔ Is it fast enough?</p>
+</blockquote>
+
+<blockquote>
+  <p>🔍 Identify the nature of the problem. (🏗 vs 🏭)</p>
+</blockquote>
+
+<blockquote>
+  <p>🔬 Select tools based on the problem.</p>
+</blockquote>
+
+<blockquote>
+  <p>📐 Measure.</p>
+</blockquote>
+
+<blockquote>
+  <p>📍 Identify the location of the problem.</p>
+</blockquote>
+
+<blockquote>
+  <p>👓 Make the slower parts faster.</p>
+</blockquote>
+
+<blockquote>
+  <p>📐 Measure again.</p>
+</blockquote>
+
+<blockquote>
+  <p>🔁 Go back to step 0.</p>
+</blockquote>
+
+<p>💩 <strong>REASONS FOR POOR PERFORMANCE</strong> 💩</p>
+
+<blockquote>
+  <ul>
+    <li>Wrong tool for the job;</li>
+  </ul>
+</blockquote>
+
+<blockquote>
+  <ul>
+    <li>Doing unnecessary things;</li>
+  </ul>
+</blockquote>
+
+<blockquote>
+  <ul>
+    <li>Poor algorithm choice;</li>
+  </ul>
+</blockquote>
+
+<p>(To be continued…)</p>
 
 
                 <hr>
@@ -109,9 +315,13 @@
                 <ul class="pager">
                     
                     <li class="previous">
-                        <a href="/2015/12/19/node-interactive-recap/" data-toggle="tooltip" data-placement="top" title="Node Interactive 2015 Recap">&larr; Previous Post</a>
+                        <a href="/2015/12/15/react-study/" data-toggle="tooltip" data-placement="top" title="React.js Study Notes">&larr; Previous Post</a>
                     </li>
                     
+                    
+                    <li class="next">
+                        <a href="/2016/01/04/flux-architecture/" data-toggle="tooltip" data-placement="top" title="Flux Architecture">Next Post &rarr;</a>
+                    </li>
                     
                 </ul>
 
@@ -120,7 +330,7 @@
 <!-- https://dev.twitter.com/web/tweet-button -->
 
 <p>If you liked this post, you can
-<a href="https://twitter.com/intent/tweet?url=aaronice.github.io/2016/01/04/flux-architecture/&text=Flux Architecture&via=ZibingH"
+<a href="https://twitter.com/intent/tweet?url=aaronice.github.io/2015/12/19/node-interactive-recap/&text=Node Interactive 2015 Recap&via=ZibingH"
    target="_blank">
   share it with your followers</a>
 or
