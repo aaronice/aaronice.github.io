@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Node Interactive 2015 Recap"
-subtitle:   "Notes on Node Interactive Conference held on Dec 8, 9 in Portland, OR"
+subtitle:   "December 8 & 9, 2015, Portland, OR | #nodeinteractive"
 date:       2015-12-19 12:00:00
 author:     "aaronice"
 header-img: "img/post-bg-portland.jpg"
@@ -9,6 +9,13 @@ header-img: "img/post-bg-portland.jpg"
 
 
 # Node Interactive 2015 Recap
+
+---
+
+* TOC
+{:toc}
+
+---
 
 Node Interactive 2015 is the Node.js Foundation lead conference.
 
@@ -149,4 +156,10 @@ Proposed workflow for performance optimization:
 > * Poor algorithm choice;
 
 
-(To be continued...)
+## Useful Resources
+
+* Conference Homepage: [https://events.linuxfoundation.org/events/node-interactive](https://events.linuxfoundation.org/events/node-interactive)  
+* Conference Schedule: [https://nodejspdx2015.sched.org](https://nodejspdx2015.sched.org)
+* Conference Videos: [https://goo.gl/1Vaqao](https://goo.gl/1Vaqao)
+* StrongLoop Node.js Videos: [https://strongloop.com/node-js/videos/](https://strongloop.com/node-js/videos/)
+* Joyent Videos: [https://www.joyent.com/developers/node](https://www.joyent.com/developers/node)

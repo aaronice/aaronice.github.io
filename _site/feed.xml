@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Code Is Not Cold</title>
-    <description>Zibing&#39;s blog on technology, life, thinking, etc.</description>
+    <description>Blog on technology, life, thinking, etc.</description>
     <link>aaronice.github.io/</link>
     <atom:link href="aaronice.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 03 Feb 2016 02:20:31 -0800</pubDate>
-    <lastBuildDate>Wed, 03 Feb 2016 02:20:31 -0800</lastBuildDate>
+    <pubDate>Fri, 05 Feb 2016 00:40:30 -0800</pubDate>
+    <lastBuildDate>Fri, 05 Feb 2016 00:40:30 -0800</lastBuildDate>
     <generator>Jekyll v3.1.1</generator>
     
       <item>
@@ -23,6 +23,29 @@
       <item>
         <title>Node Interactive 2015 Recap</title>
         <description>&lt;h1 id=&quot;node-interactive-2015-recap&quot;&gt;Node Interactive 2015 Recap&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;ul id=&quot;markdown-toc&quot;&gt;
+  &lt;li&gt;&lt;a href=&quot;#node-interactive-2015-recap&quot; id=&quot;markdown-toc-node-interactive-2015-recap&quot;&gt;Node Interactive 2015 Recap&lt;/a&gt;    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#nodejs-ecosystem&quot; id=&quot;markdown-toc-nodejs-ecosystem&quot;&gt;Node.js Ecosystem&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#the-adoption-trend&quot; id=&quot;markdown-toc-the-adoption-trend&quot;&gt;The Adoption Trend&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#nodejs-in-production&quot; id=&quot;markdown-toc-nodejs-in-production&quot;&gt;Node.js in Production&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#debugging-nodejs-in-production&quot; id=&quot;markdown-toc-debugging-nodejs-in-production&quot;&gt;Debugging Node.js in Production&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#making-your-nodejs-applications-debuggable&quot; id=&quot;markdown-toc-making-your-nodejs-applications-debuggable&quot;&gt;Making Your Node.js Applications Debuggable&lt;/a&gt;        &lt;ul&gt;
+          &lt;li&gt;&lt;a href=&quot;#intro&quot; id=&quot;markdown-toc-intro&quot;&gt;Intro&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#performance&quot; id=&quot;markdown-toc-performance&quot;&gt;Performance&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#memory&quot; id=&quot;markdown-toc-memory&quot;&gt;Memory&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&quot;#summary&quot; id=&quot;markdown-toc-summary&quot;&gt;Summary&lt;/a&gt;&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#nodejs-performance-optimization&quot; id=&quot;markdown-toc-nodejs-performance-optimization&quot;&gt;Node.js Performance Optimization&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#useful-resources&quot; id=&quot;markdown-toc-useful-resources&quot;&gt;Useful Resources&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
 
 &lt;p&gt;Node Interactive 2015 is the Node.js Foundation lead conference.&lt;/p&gt;
 
@@ -228,7 +251,15 @@
   &lt;/ul&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;(To be continued…)&lt;/p&gt;
+&lt;h2 id=&quot;useful-resources&quot;&gt;Useful Resources&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Conference Homepage: &lt;a href=&quot;https://events.linuxfoundation.org/events/node-interactive&quot;&gt;https://events.linuxfoundation.org/events/node-interactive&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Conference Schedule: &lt;a href=&quot;https://nodejspdx2015.sched.org&quot;&gt;https://nodejspdx2015.sched.org&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Conference Videos: &lt;a href=&quot;https://goo.gl/1Vaqao&quot;&gt;https://goo.gl/1Vaqao&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;StrongLoop Node.js Videos: &lt;a href=&quot;https://strongloop.com/node-js/videos/&quot;&gt;https://strongloop.com/node-js/videos/&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Joyent Videos: &lt;a href=&quot;https://www.joyent.com/developers/node&quot;&gt;https://www.joyent.com/developers/node&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
         <pubDate>Sat, 19 Dec 2015 04:00:00 -0800</pubDate>
         <link>aaronice.github.io/2015/12/19/node-interactive-recap/</link>
