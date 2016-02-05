@@ -130,30 +130,21 @@ Proposed workflow for performance optimization:
 
 📝 **WORKFLOW** 📝
 
->❔ Is it fast enough?
-
->🔍 Identify the nature of the problem. (🏗 vs 🏭)
-
->🔬 Select tools based on the problem.
-
->📐 Measure.
-
->📍 Identify the location of the problem.
-
->👓 Make the slower parts faster.
-
->📐 Measure again.
-
->🔁 Go back to step 0.
+* ❔ Is it fast enough?
+* 🔍 Identify the nature of the problem. (🏗 vs 🏭)
+* 🔬 Select tools based on the problem.
+* 📐 Measure.
+* 📍 Identify the location of the problem.
+* 👓 Make the slower parts faster.
+* 📐 Measure again.
+* 🔁 Go back to step 0.
 
 
 💩 **REASONS FOR POOR PERFORMANCE** 💩
 
-> * Wrong tool for the job;
-
-> * Doing unnecessary things;
-
-> * Poor algorithm choice;
+* Wrong tool for the job;
+* Doing unnecessary things;
+* Poor algorithm choice;
 
 
 ## Useful Resources

@@ -5,8 +5,8 @@
     <description>Blog on technology, life, thinking, etc.</description>
     <link>aaronice.github.io/</link>
     <atom:link href="aaronice.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Fri, 05 Feb 2016 00:40:30 -0800</pubDate>
-    <lastBuildDate>Fri, 05 Feb 2016 00:40:30 -0800</lastBuildDate>
+    <pubDate>Fri, 05 Feb 2016 00:45:29 -0800</pubDate>
+    <lastBuildDate>Fri, 05 Feb 2016 00:45:29 -0800</lastBuildDate>
     <generator>Jekyll v3.1.1</generator>
     
       <item>
@@ -199,57 +199,24 @@
 
 &lt;p&gt;📝 &lt;strong&gt;WORKFLOW&lt;/strong&gt; 📝&lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;❔ Is it fast enough?&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;🔍 Identify the nature of the problem. (🏗 vs 🏭)&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;🔬 Select tools based on the problem.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;📐 Measure.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;📍 Identify the location of the problem.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;👓 Make the slower parts faster.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;📐 Measure again.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;🔁 Go back to step 0.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;ul&gt;
+  &lt;li&gt;❔ Is it fast enough?&lt;/li&gt;
+  &lt;li&gt;🔍 Identify the nature of the problem. (🏗 vs 🏭)&lt;/li&gt;
+  &lt;li&gt;🔬 Select tools based on the problem.&lt;/li&gt;
+  &lt;li&gt;📐 Measure.&lt;/li&gt;
+  &lt;li&gt;📍 Identify the location of the problem.&lt;/li&gt;
+  &lt;li&gt;👓 Make the slower parts faster.&lt;/li&gt;
+  &lt;li&gt;📐 Measure again.&lt;/li&gt;
+  &lt;li&gt;🔁 Go back to step 0.&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;💩 &lt;strong&gt;REASONS FOR POOR PERFORMANCE&lt;/strong&gt; 💩&lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;ul&gt;
-    &lt;li&gt;Wrong tool for the job;&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;ul&gt;
-    &lt;li&gt;Doing unnecessary things;&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;ul&gt;
-    &lt;li&gt;Poor algorithm choice;&lt;/li&gt;
-  &lt;/ul&gt;
-&lt;/blockquote&gt;
+&lt;ul&gt;
+  &lt;li&gt;Wrong tool for the job;&lt;/li&gt;
+  &lt;li&gt;Doing unnecessary things;&lt;/li&gt;
+  &lt;li&gt;Poor algorithm choice;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h2 id=&quot;useful-resources&quot;&gt;Useful Resources&lt;/h2&gt;
 
