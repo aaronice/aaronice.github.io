@@ -68,35 +68,57 @@ ReactDOM
 
 ## JSX
 
-In-browser JSX Transformer
-- It's great for development, but will take extra time for production code
-React tools
-- Good for production, pre-process the JSX
+* In-browser JSX Transformer
+    - It's great for development, but will take extra time for production code
+* React tools
+    - Good for production, pre-process the JSX; e.g. Babel
 
-Pre-process
-- Good for production
-
-### Rendering Component
+### Rendering Component Tips
 It allows maximum of one node to be returned in render function.
 
 The following example will get syntax error:
 
 ~~~ javascript
 var Optimistic = React.createClass({
-  render: function() {
-    return (
-      <h1>{this.props.name} loves React</h1>
-      <p>React doesn’t. Idea: sprinkle some divs here and there.</p>
-    );
-  }
+    render: function() {
+        return (
+            <h1>{this.props.name} loves React</h1>
+            <p>React doesn’t. Idea: sprinkle some divs here and there.</p>
+        );
+    }
 });
 
 React.render(
-  <Optimistic name="Peter" />,
-  document.getElementById('myContainer')
+    <Optimistic name="Peter" />,
+    document.getElementById('myContainer')
 );
 ~~~
 
+
+### Render a List of Components
+
+Create a list of React component in an array, and assign it to a wrapper, like <ul></ul>, <div></div>
+
+~~~ javascript
+
+var TodoItem = React.createClass({
+    render: function() {
+        return  <li>{this.props.item.text}</li>;
+    }
+});
+
+var TodoList = React.createClass({
+    render: function() {
+        var todos = this.props.items.map(function(item) {
+            return (
+                <TodoItem item={item} />
+            );
+        });  
+        return  <ul>{todos}</ul>;
+    }
+});
+
+~~~
 
 ----------
 

@@ -32,7 +32,7 @@ As of Dec. 2015, there are more than 200,000 Node.js modules exist in NPM, namel
 
 After the merge with io.js, the Node release version seems skyrocketed. Luckily, the good thing is Node.js has come up with the LTS version, thus making enterprise adopters more comfortable with this still new technology. While at the same time, it keeps the speed for development and evolving.
 
-Node.js Long Term Support Schedule
+Node.js Long Term Support Schedule (as of Dec. 2015)
 
 ![](/img/node-interactive/Node_Interactive_2015_LTS.jpg)
 
@@ -90,6 +90,7 @@ Profiling Node.js mainly referring to performance(CPU) and memory.
     * Performance with V8 CPU profiler
     * Memory with V8 heap snapshots
 
+
 ### Performance
 * Understanding performance
     * Self time - time to run the function, not including other function calls.
@@ -119,6 +120,7 @@ Profiling Node.js mainly referring to performance(CPU) and memory.
 * Profiling memory
     * Easiest way to detect memory leak take memory snapshot
     * ‘Tag’ objects you think might be leaking with easy to find class
+
 
 ## Node.js Performance Optimization
 

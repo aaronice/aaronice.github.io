@@ -168,32 +168,62 @@ ReactDOM</p>
 
 <h2 id="jsx">JSX</h2>
 
-<p>In-browser JSX Transformer
-- It’s great for development, but will take extra time for production code
-React tools
-- Good for production, pre-process the JSX</p>
+<ul>
+  <li>In-browser JSX Transformer
+    <ul>
+      <li>It’s great for development, but will take extra time for production code</li>
+    </ul>
+  </li>
+  <li>React tools
+    <ul>
+      <li>Good for production, pre-process the JSX; e.g. Babel</li>
+    </ul>
+  </li>
+</ul>
 
-<p>Pre-process
-- Good for production</p>
-
-<h3 id="rendering-component">Rendering Component</h3>
+<h3 id="rendering-component-tips">Rendering Component Tips</h3>
 <p>It allows maximum of one node to be returned in render function.</p>
 
 <p>The following example will get syntax error:</p>
 
 <div class="highlighter-rouge"><pre class="highlight"><code><span class="kd">var</span> <span class="nx">Optimistic</span> <span class="o">=</span> <span class="nx">React</span><span class="p">.</span><span class="nx">createClass</span><span class="p">({</span>
-  <span class="na">render</span><span class="p">:</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
-    <span class="k">return</span> <span class="p">(</span>
-      <span class="o">&lt;</span><span class="nx">h1</span><span class="o">&gt;</span><span class="p">{</span><span class="k">this</span><span class="p">.</span><span class="nx">props</span><span class="p">.</span><span class="nx">name</span><span class="p">}</span> <span class="nx">loves</span> <span class="nx">React</span><span class="o">&lt;</span><span class="sr">/h1</span><span class="err">&gt;
-</span>      <span class="o">&lt;</span><span class="nx">p</span><span class="o">&gt;</span><span class="nx">React</span> <span class="nx">doesn</span><span class="err">’</span><span class="nx">t</span><span class="p">.</span> <span class="na">Idea</span><span class="p">:</span> <span class="nx">sprinkle</span> <span class="nx">some</span> <span class="nx">divs</span> <span class="nx">here</span> <span class="nx">and</span> <span class="nx">there</span><span class="p">.</span><span class="o">&lt;</span><span class="sr">/p</span><span class="err">&gt;
-</span>    <span class="p">);</span>
-  <span class="p">}</span>
+    <span class="na">render</span><span class="p">:</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="p">(</span>
+            <span class="o">&lt;</span><span class="nx">h1</span><span class="o">&gt;</span><span class="p">{</span><span class="k">this</span><span class="p">.</span><span class="nx">props</span><span class="p">.</span><span class="nx">name</span><span class="p">}</span> <span class="nx">loves</span> <span class="nx">React</span><span class="o">&lt;</span><span class="sr">/h1</span><span class="err">&gt;
+</span>            <span class="o">&lt;</span><span class="nx">p</span><span class="o">&gt;</span><span class="nx">React</span> <span class="nx">doesn</span><span class="err">’</span><span class="nx">t</span><span class="p">.</span> <span class="na">Idea</span><span class="p">:</span> <span class="nx">sprinkle</span> <span class="nx">some</span> <span class="nx">divs</span> <span class="nx">here</span> <span class="nx">and</span> <span class="nx">there</span><span class="p">.</span><span class="o">&lt;</span><span class="sr">/p</span><span class="err">&gt;
+</span>        <span class="p">);</span>
+    <span class="p">}</span>
 <span class="p">});</span>
 
 <span class="nx">React</span><span class="p">.</span><span class="nx">render</span><span class="p">(</span>
-  <span class="o">&lt;</span><span class="nx">Optimistic</span> <span class="nx">name</span><span class="o">=</span><span class="s2">"Peter"</span> <span class="o">/&gt;</span><span class="p">,</span>
-  <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="s1">'myContainer'</span><span class="p">)</span>
+    <span class="o">&lt;</span><span class="nx">Optimistic</span> <span class="nx">name</span><span class="o">=</span><span class="s2">"Peter"</span> <span class="o">/&gt;</span><span class="p">,</span>
+    <span class="nb">document</span><span class="p">.</span><span class="nx">getElementById</span><span class="p">(</span><span class="s1">'myContainer'</span><span class="p">)</span>
 <span class="p">);</span>
+</code></pre>
+</div>
+
+<h3 id="render-a-list-of-components">Render a List of Components</h3>
+
+<p>Create a list of React component in an array, and assign it to a wrapper, like &lt;ul&gt;&lt;/ul&gt;, &lt;div&gt;&lt;/div&gt;</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>
+<span class="kd">var</span> <span class="nx">TodoItem</span> <span class="o">=</span> <span class="nx">React</span><span class="p">.</span><span class="nx">createClass</span><span class="p">({</span>
+    <span class="na">render</span><span class="p">:</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+        <span class="k">return</span>  <span class="o">&lt;</span><span class="nx">li</span><span class="o">&gt;</span><span class="p">{</span><span class="k">this</span><span class="p">.</span><span class="nx">props</span><span class="p">.</span><span class="nx">item</span><span class="p">.</span><span class="nx">text</span><span class="p">}</span><span class="o">&lt;</span><span class="sr">/li&gt;</span><span class="err">;
+</span>    <span class="p">}</span>
+<span class="p">});</span>
+
+<span class="kd">var</span> <span class="nx">TodoList</span> <span class="o">=</span> <span class="nx">React</span><span class="p">.</span><span class="nx">createClass</span><span class="p">({</span>
+    <span class="na">render</span><span class="p">:</span> <span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+        <span class="kd">var</span> <span class="nx">todos</span> <span class="o">=</span> <span class="k">this</span><span class="p">.</span><span class="nx">props</span><span class="p">.</span><span class="nx">items</span><span class="p">.</span><span class="nx">map</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">item</span><span class="p">)</span> <span class="p">{</span>
+            <span class="k">return</span> <span class="p">(</span>
+                <span class="o">&lt;</span><span class="nx">TodoItem</span> <span class="nx">item</span><span class="o">=</span><span class="p">{</span><span class="nx">item</span><span class="p">}</span> <span class="sr">/</span><span class="err">&gt;
+</span>            <span class="p">);</span>
+        <span class="p">});</span>  
+        <span class="k">return</span>  <span class="o">&lt;</span><span class="nx">ul</span><span class="o">&gt;</span><span class="p">{</span><span class="nx">todos</span><span class="p">}</span><span class="o">&lt;</span><span class="sr">/ul&gt;</span><span class="err">;
+</span>    <span class="p">}</span>
+<span class="p">});</span>
+
 </code></pre>
 </div>
 
