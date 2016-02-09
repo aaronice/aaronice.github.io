@@ -14,6 +14,6 @@ github_username:  aaronice
 markdown: kramdown
 highlighter: rouge
 permalink: pretty
-paginate: 10
+paginate: 5
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 gems: ["jekyll-paginate"]

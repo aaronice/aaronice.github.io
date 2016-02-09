@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Blog on technology, life, thinking, etc.">
+
+    <title>OWASP Security Top 10 - Code Is Not Cold</title>
+
+    <link rel="canonical" href="aaronice.github.io/2016/01/18/owasp-security-top-10/">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/clean-blog.css">
+
+    <!-- Pygments Github CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
+
+    <!-- Custom Fonts -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+
+<body>
+
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">Code Is Not Cold</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="/">Home</a>
+                </li>
+                
+                <li>
+                    <a href="/about/">About</a>
+                </li>
+                
+                <li>
+                    <a href="/contact/">Contact</a>
+                </li>
+                
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+
+    <!-- Post Header -->
+<header class="intro-header" style="background-image: url('/')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <h1>OWASP Security Top 10</h1>
+                    
+                    <h2 class="subheading">A brief summary of OWASP Top 10</h2>
+                    
+                    <span class="meta">Posted by aaronice on January 18, 2016</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
+                <h1 id="owasp-top-10">OWASP TOP 10</h1>
+
+<p>OWASP is abbreviation for Open Web Application Security Project.</p>
+
+<blockquote>
+  <p>The <strong>OWASP Top Ten</strong> represents a broad consensus about what the most critical web application security flaws are.</p>
+</blockquote>
+
+<hr />
+
+<ul id="markdown-toc">
+  <li><a href="#owasp-top-10" id="markdown-toc-owasp-top-10">OWASP TOP 10</a>    <ul>
+      <li><a href="#sql-injection" id="markdown-toc-sql-injection">1. SQL Injection</a></li>
+      <li><a href="#session-hijacking" id="markdown-toc-session-hijacking">2. Session hijacking</a></li>
+      <li><a href="#cross-site-scripting-xss" id="markdown-toc-cross-site-scripting-xss">3. Cross-site Scripting (XSS)</a></li>
+      <li><a href="#parameter-manipulation-insecure-direct-object-reference" id="markdown-toc-parameter-manipulation-insecure-direct-object-reference">4. Parameter Manipulation (insecure direct object reference)</a></li>
+      <li><a href="#insecure-configuration" id="markdown-toc-insecure-configuration">5. Insecure Configuration</a></li>
+      <li><a href="#insecure-storage" id="markdown-toc-insecure-storage">6. Insecure Storage</a></li>
+      <li><a href="#forcible-browsing" id="markdown-toc-forcible-browsing">7. Forcible Browsing</a></li>
+      <li><a href="#cross-site-request-forgery-xsrf" id="markdown-toc-cross-site-request-forgery-xsrf">8. Cross-site request forgery (XSRF)</a></li>
+      <li><a href="#vulnerable-components" id="markdown-toc-vulnerable-components">9. Vulnerable Components</a></li>
+      <li><a href="#unchecked-redirects" id="markdown-toc-unchecked-redirects">10. Unchecked Redirects</a></li>
+      <li><a href="#reference" id="markdown-toc-reference">Reference</a></li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<h2 id="sql-injection">1. SQL Injection</h2>
+
+<p><strong>Reason</strong></p>
+
+<ul>
+  <li>Targets the back-end data stores via URL, forms, login boxes</li>
+</ul>
+
+<p><strong>Defense</strong></p>
+
+<ul>
+  <li>The best defense against SQL injection is use parameterized queries (prepared statements) for SQL queries within the code</li>
+  <li>No detailed database error message returned directly</li>
+  <li>Validate the input data before constructing SQL</li>
+</ul>
+
+<h2 id="session-hijacking">2. Session hijacking</h2>
+
+<p><strong>Reason</strong></p>
+
+<ul>
+  <li>Network packet captured, SessionID being used, hijacker treated as user</li>
+</ul>
+
+<p><strong>Defense</strong></p>
+
+<ul>
+  <li>Encryption of the site over HTTPS will help prevent session tokens from being stolen</li>
+  <li>Sensitive sites consider not only authentication but also the entire sites: Use SSL, HTTPS</li>
+  <li>Shorter idle timeouts</li>
+  <li>Help those who forgot to logout</li>
+  <li>Harder for hijackers to act</li>
+</ul>
+
+<h2 id="cross-site-scripting-xss">3. Cross-site Scripting (XSS)</h2>
+
+<p><strong>Reason</strong></p>
+
+<ul>
+  <li>User supplied input is properly escaped, or not verify it to be safe via input validation</li>
+</ul>
+
+<p><strong>Defense</strong></p>
+
+<ul>
+  <li>Use proper re-encoding before redisplaying user input</li>
+  <li>Properly escape all untrusted data based on the HTML context</li>
+  <li>Positive or “whitelist” input validation</li>
+  <li>Auto-sanitization libraries</li>
+  <li>Content Security Policy (CSP)</li>
+</ul>
+
+<h2 id="parameter-manipulation-insecure-direct-object-reference">4. Parameter Manipulation (insecure direct object reference)</h2>
+
+<p><strong>Reason</strong></p>
+
+<ul>
+  <li>Parameter values contained inside a URL being modified get different functionality or data</li>
+</ul>
+
+<p><strong>Defense</strong></p>
+
+<ul>
+  <li>Server-side validation</li>
+  <li>Central validation scheme</li>
+  <li>Independent business logic</li>
+  <li>Session variables</li>
+  <li>Storing data in session variables, no parameters in the URL to be tampered with</li>
+</ul>
+
+<h2 id="insecure-configuration">5. Insecure Configuration</h2>
+
+<p><strong>Reason</strong></p>
+
+<ul>
+  <li>Lack of standard hardening process for deployed infrastructure and software</li>
+  <li>No central account management mechanism in place on each server</li>
+  <li>No standardized and central process for patch management</li>
+</ul>
+
+<p><strong>Defense</strong></p>
+
+<ul>
+  <li>Repeatable Hardening process</li>
+  <li>New server, repeatable hardening scripts</li>
+  <li>Patch Management</li>
+  <li>Regular Updates and Audits</li>
+</ul>
+
+<h2 id="insecure-storage">6. Insecure Storage</h2>
+
+<p><strong>Reason</strong></p>
+
+<ul>
+  <li>Sensitive data may be disclosed to unauthorized party</li>
+</ul>
+
+<p><strong>Defense</strong></p>
+
+<ul>
+  <li>Determine what’s sensitive</li>
+  <li>Thread Modeling</li>
+  <li>Use known strong algorithms</li>
+  <li>Hashing</li>
+  <li>Use &gt;=168bits, e.g. SHA-256, instead of MD5, SH0, SH1</li>
+</ul>
+
+<h2 id="forcible-browsing">7. Forcible Browsing</h2>
+
+<p><strong>Reason</strong></p>
+
+<ul>
+  <li>Access by “guessing” the URL</li>
+</ul>
+
+<p><strong>Defense</strong></p>
+
+<ul>
+  <li>Page Level Authorization</li>
+  <li>Each page checks to see if the user is authorized to have access</li>
+  <li>Programmed Authorization</li>
+  <li>Code and programming to determine a user’s authorization, includes coding roles and access policies</li>
+</ul>
+
+<h2 id="cross-site-request-forgery-xsrf">8. Cross-site request forgery (XSRF)</h2>
+
+<p><strong>Reason</strong></p>
+
+<ul>
+  <li>Victim must be authenticated</li>
+  <li>Hacker must be able to make a XSRF URL, attack is blind</li>
+</ul>
+
+<p><strong>Defense</strong></p>
+
+<ul>
+  <li>Decrease session timeouts</li>
+  <li>XSRF tokens, adding a secret, not automatically submitted, token to ALL sensitive requests</li>
+  <li>Server generates a token on each page load and stores it, when submits the form, it check if the token matches</li>
+  <li>Re-authentication</li>
+  <li>Asking user to re-authenticate before a sensitive transaction is a good way to verify the user and their intended actions</li>
+</ul>
+
+<h2 id="vulnerable-components">9. Vulnerable Components</h2>
+
+<p><strong>Reason</strong></p>
+
+<ul>
+  <li>Vulnerable components are common, virtually every app has these issues; development team not enforcing components/libraries up-to-date</li>
+</ul>
+
+<p><strong>Defense</strong></p>
+
+<ul>
+  <li>Automation checks periodically to check if libraries out-of-date</li>
+</ul>
+
+<h2 id="unchecked-redirects">10. Unchecked Redirects</h2>
+
+<ul>
+  <li>URL redirects exploited by hacker</li>
+</ul>
+
+<p><strong>Defense</strong></p>
+
+<ul>
+  <li>Don’t use parameters (in URL), manage re-direction in code such as session data</li>
+  <li>Server side validation, check redirect URLs, use a whitelist</li>
+</ul>
+
+<h2 id="reference">Reference</h2>
+
+<ul>
+  <li><a href="https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project">OWASP Top 10</a></li>
+  <li><a href="https://www.owasp.org/index.php/OWASP_Top_Ten_Cheat_Sheet">OWASP_Top_Ten_Cheat_Sheet</a></li>
+</ul>
+
+
+                <hr>
+
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/2016/01/04/binary-search-tree/" data-toggle="tooltip" data-placement="top" title="Binary Search Tree">&larr; Previous Post</a>
+                    </li>
+                    
+                    
+                    <li class="next">
+                        <a href="/2016/02/07/nginx/" data-toggle="tooltip" data-placement="top" title="Demystify Nginx">Next Post &rarr;</a>
+                    </li>
+                    
+                </ul>
+
+                <!-- Twitter Plugin -->
+<!-- Use Twitter Button In the Future-->
+<!-- https://dev.twitter.com/web/tweet-button -->
+
+<p>If you liked this post, you can
+<a href="https://twitter.com/intent/tweet?url=aaronice.github.io/2016/01/18/owasp-security-top-10/&text=OWASP Security Top 10&via=ZibingH"
+   target="_blank">
+  share it with your followers</a>
+or
+<a href="https://twitter.com/ZibingH">
+  follow me on Twitter</a>!
+</p>
+
+                <div id="disqus_thread"></div>
+<script>
+/**
+* RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+* LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+*/
+/*
+var disqus_config = function () {
+this.page.url = PAGE_URL; // Replace PAGE_URL with your page's canonical URL variable
+this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+};
+*/
+(function() { // DON'T EDIT BELOW THIS LINE
+var d = document, s = d.createElement('script');
+
+s.src = '//aaronice.disqus.com/embed.js';
+
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+
+            </div>
+        </div>
+    </div>
+</article>
+
+<hr>
+
+
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    <li>
+                        <a href="/feed.xml">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://twitter.com/ZibingH">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    
+                    
+                    <li>
+                        <a href="https://github.com/aaronice">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <li>
+                        <a href="mailto:hiaaronice@gmail.com">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                </ul>
+                <p class="copyright text-muted">Copyright &copy; Code Is Not Cold 2016</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="/js/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/clean-blog.min.js "></script>
+
+<!-- Disqus script -->
+<script id="dsq-count-scr" src="//aaronice.disqus.com/count.js" async></script>
+
+
+</body>
+
+    <script>
+
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-58203299-2', 'auto');
+ga('send', 'pageview');
+
+</script>
+
+
+</html>
