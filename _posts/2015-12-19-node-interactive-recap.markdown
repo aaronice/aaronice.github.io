@@ -151,8 +151,8 @@ Proposed workflow for performance optimization:
 
 ## Useful Resources
 
-* Conference Homepage: [https://events.linuxfoundation.org/events/node-interactive](https://events.linuxfoundation.org/events/node-interactive)  
-* Conference Schedule: [https://nodejspdx2015.sched.org](https://nodejspdx2015.sched.org)
-* Conference Videos: [https://goo.gl/1Vaqao](https://goo.gl/1Vaqao)
-* StrongLoop Node.js Videos: [https://strongloop.com/node-js/videos/](https://strongloop.com/node-js/videos/)
-* Joyent Videos: [https://www.joyent.com/developers/node](https://www.joyent.com/developers/node)
+* [Conference Homepage](https://events.linuxfoundation.org/events/node-interactive)  
+* [Conference Schedule](https://nodejspdx2015.sched.org)
+* [Conference Videos](https://goo.gl/1Vaqao)
+* [StrongLoop Node.js Videos](https://strongloop.com/node-js/videos/)
+* [Joyent Videos](https://www.joyent.com/developers/node)
