@@ -5,9 +5,158 @@
     <description>Blog on technology, life, thinking, etc.</description>
     <link>aaronice.github.io/</link>
     <atom:link href="aaronice.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 09 Feb 2016 00:51:00 -0800</pubDate>
-    <lastBuildDate>Tue, 09 Feb 2016 00:51:00 -0800</lastBuildDate>
+    <pubDate>Mon, 15 Feb 2016 20:07:09 -0800</pubDate>
+    <lastBuildDate>Mon, 15 Feb 2016 20:07:09 -0800</lastBuildDate>
     <generator>Jekyll v3.1.1</generator>
+    
+      <item>
+        <title>Anti Anti-spider Strategy</title>
+        <description>&lt;h1 id=&quot;the-anti-anti-scraping-strategy&quot;&gt;The Anti Anti-scraping Strategy&lt;/h1&gt;
+
+&lt;p&gt;Before knowing how to prevent being blacklisted while scraping, we need to understand how a website detect web crawlers.&lt;/p&gt;
+
+&lt;p&gt;There’re multiple anti-scraping mechanisms to distinguish a spider from a normal user. Some of the methods are&lt;a href=&quot;https://learn.scrapehero.com/how-to-prevent-getting-blacklisted-while-scraping/&quot;&gt;&lt;sup&gt;[1]&lt;/sup&gt;&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;ol&gt;
+    &lt;li&gt;
+      &lt;p&gt;Unusual traffic/high download &lt;strong&gt;rate&lt;/strong&gt; especially from a &lt;strong&gt;single&lt;/strong&gt; client/or IP address within a short &lt;strong&gt;time&lt;/strong&gt; span.&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;&lt;strong&gt;Repetitive&lt;/strong&gt; tasks performed on the website – based on an assumption that a human user won’t perform the same repetitive tasks all the time.&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+      &lt;p&gt;Detection through &lt;strong&gt;honeypots&lt;/strong&gt; – these honeypots are usually links which &lt;strong&gt;aren’t visible&lt;/strong&gt; to a normal user but only to a spider. When a scraper/spider tries to access the link, the alarms are tripped.&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Corresponding to the anti-scraping mechanisms are the following strategies:&lt;/p&gt;
+
+&lt;h2 id=&quot;ip-addresses-rotation&quot;&gt;IP Addresses Rotation&lt;/h2&gt;
+
+&lt;p&gt;IP blacklisting is the perhaps the easiest way of anti-scraping. By creating a pool of IP addresses, and making requests using different IP, will make it harder for server to detect crawlers.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Use a list of IP from proxy services
+    &lt;ul&gt;
+      &lt;li&gt;Randomly pick an IP for certain time interval&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;cookie-rotation&quot;&gt;Cookie Rotation&lt;/h2&gt;
+&lt;p&gt;Cookies are encrypted data stored in client side, some website use cookie to identify user. If a user client sends requests in high frequency, it’s possible to be identified as suspicious crawler, thus denied access.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Customize and manage a pool of cookies
+    &lt;ul&gt;
+      &lt;li&gt;Sending request to server without cookie headers, parse the package for set-cookie value; store it in cookie collector;&lt;/li&gt;
+      &lt;li&gt;Get cookie from cookie collect and if the cookie is not usable, then delete it from cookie collector;&lt;/li&gt;
+      &lt;li&gt;Manage the cookie collector with timestamp, in order for the spider to get the oldest cookie first each time.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Disable cookie
+    &lt;ul&gt;
+      &lt;li&gt;By disabling cookie, it may help prevent being banned by some websites which use cookie to identify crawlers.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;user-agent-imitation&quot;&gt;User-Agent Imitation&lt;/h2&gt;
+
+&lt;p&gt;To disguise as browser, one of the approaches is to modify the User-Agent. User-Agent is a string in request header that contains user-agent information, such as the version of web browser, client, operating system etc.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Spoof the User-Agent by making a list of user agents and randomly pick one for each request. Setting the User-Agent to a common web
+browser instead of using the default ones.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;rate-limit&quot;&gt;Rate Limit&lt;/h2&gt;
+
+&lt;p&gt;Slow down the crawling, treat the websites nicely, don’t overwhelm it, or DDoS the server.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Put some random sleeps between requests&lt;/li&gt;
+  &lt;li&gt;Add some delays after crawling a number of pages&lt;/li&gt;
+  &lt;li&gt;Use the lowest number of concurrent requests possible&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;be-careful-about-honeypots&quot;&gt;Be Careful About Honeypots&lt;/h2&gt;
+
+&lt;p&gt;These honeypots usually are links that normal user can’t see but a spider can&lt;a href=&quot;https://learn.scrapehero.com/how-to-prevent-getting-blacklisted-while-scraping/&quot;&gt;&lt;sup&gt;[1]&lt;/sup&gt;&lt;/a&gt;. They might be having the CSS style “display:none”. Thus the detection of honeypots can be tricky.&lt;/p&gt;
+
+&lt;h2 id=&quot;avoid-repetitive-crawling-pattern&quot;&gt;Avoid Repetitive Crawling Pattern&lt;/h2&gt;
+
+&lt;p&gt;Some websites implemented intelligent anti-crawling mechanisms, thus a repetitive action will be likely detected as spider. To make a spider looks like a human, add random clicks, mouse movement, random actions etc. Using automated testing tool like Selenium may simulator normal “human actions”.&lt;/p&gt;
+
+&lt;h2 id=&quot;reference&quot;&gt;Reference&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://learn.scrapehero.com/how-to-prevent-getting-blacklisted-while-scraping/&quot;&gt;HOW TO PREVENT GETTING BLACKLISTED WHILE SCRAPING&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://www.dianacody.com/2014/10/01/spider_5.html&quot;&gt;防止爬虫被墙的方法总结&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://medium.com/@Masutangu/%E5%BA%94%E5%AF%B9%E5%8F%8D%E7%88%AC%E8%99%AB%E4%B9%8B%E6%8D%A2cookie-d3b48b02d0e6&quot;&gt;应对反爬虫之换Cookie&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        <pubDate>Mon, 15 Feb 2016 04:00:00 -0800</pubDate>
+        <link>aaronice.github.io/2016/02/15/anti-anti-spider-strategy/</link>
+        <guid isPermaLink="true">aaronice.github.io/2016/02/15/anti-anti-spider-strategy/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Modern Software Project Management - Agile Methodology</title>
+        <description>&lt;p&gt;Individuals and Interactions » Processes and Tools
+Working Software » comprehensive documentation
+Customer Collaboration » Contract Negotiation
+Responding to Change » Following a Plan&lt;/p&gt;
+
+&lt;h2 id=&quot;reference&quot;&gt;Reference&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://agilemethodology.org&quot;&gt;Agile Methodology&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Thu, 11 Feb 2016 04:00:00 -0800</pubDate>
+        <link>aaronice.github.io/2016/02/11/agile-methodology/</link>
+        <guid isPermaLink="true">aaronice.github.io/2016/02/11/agile-methodology/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>What on earth is SOA?</title>
+        <description>&lt;p&gt;To fill.&lt;/p&gt;
+
+&lt;h2 id=&quot;reference&quot;&gt;Reference&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Service-oriented_architecture&quot;&gt;Wiki Service-oriented_architecture&lt;/a&gt;
+# &lt;a href=&quot;http://aosabook.org/en/index.html&quot;&gt;The Architecture of Open Source Applications&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 09 Feb 2016 04:00:00 -0800</pubDate>
+        <link>aaronice.github.io/2016/02/09/service-oriented-architecture/</link>
+        <guid isPermaLink="true">aaronice.github.io/2016/02/09/service-oriented-architecture/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Interesting Machine Learning Projects</title>
+        <description>&lt;p&gt;http://cs229.stanford.edu/projects2015.html#best&lt;/p&gt;
+</description>
+        <pubDate>Mon, 08 Feb 2016 04:00:00 -0800</pubDate>
+        <link>aaronice.github.io/2016/02/08/machine-learning-projects/</link>
+        <guid isPermaLink="true">aaronice.github.io/2016/02/08/machine-learning-projects/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Demystify Nginx</title>
@@ -17,7 +166,8 @@
 
 &lt;h2 id=&quot;reference&quot;&gt;Reference&lt;/h2&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://aosabook.org/en/nginx.html&quot;&gt;Nginx &lt;em&gt;by Andrew Alexeev&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://aosabook.org/en/nginx.html&quot;&gt;Nginx &lt;em&gt;by Andrew Alexeev&lt;/em&gt;&lt;/a&gt;
+&lt;a href=&quot;https://en.wikipedia.org/wiki/Nginx&quot;&gt;Nginx &lt;em&gt;Wikipedia&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Sun, 07 Feb 2016 04:00:00 -0800</pubDate>
         <link>aaronice.github.io/2016/02/07/nginx/</link>
@@ -464,11 +614,11 @@
 &lt;h2 id=&quot;useful-resources&quot;&gt;Useful Resources&lt;/h2&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Conference Homepage: &lt;a href=&quot;https://events.linuxfoundation.org/events/node-interactive&quot;&gt;https://events.linuxfoundation.org/events/node-interactive&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Conference Schedule: &lt;a href=&quot;https://nodejspdx2015.sched.org&quot;&gt;https://nodejspdx2015.sched.org&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Conference Videos: &lt;a href=&quot;https://goo.gl/1Vaqao&quot;&gt;https://goo.gl/1Vaqao&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;StrongLoop Node.js Videos: &lt;a href=&quot;https://strongloop.com/node-js/videos/&quot;&gt;https://strongloop.com/node-js/videos/&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;Joyent Videos: &lt;a href=&quot;https://www.joyent.com/developers/node&quot;&gt;https://www.joyent.com/developers/node&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://events.linuxfoundation.org/events/node-interactive&quot;&gt;Conference Homepage&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://nodejspdx2015.sched.org&quot;&gt;Conference Schedule&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://goo.gl/1Vaqao&quot;&gt;Conference Videos&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://strongloop.com/node-js/videos/&quot;&gt;StrongLoop Node.js Videos&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.joyent.com/developers/node&quot;&gt;Joyent Videos&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         <pubDate>Sat, 19 Dec 2015 04:00:00 -0800</pubDate>
