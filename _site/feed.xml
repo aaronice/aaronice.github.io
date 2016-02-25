@@ -5,9 +5,93 @@
     <description>Blog on technology, life, thinking, etc.</description>
     <link>aaronice.github.io/</link>
     <atom:link href="aaronice.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 18 Feb 2016 01:13:18 -0800</pubDate>
-    <lastBuildDate>Thu, 18 Feb 2016 01:13:18 -0800</lastBuildDate>
+    <pubDate>Thu, 25 Feb 2016 15:09:10 -0800</pubDate>
+    <lastBuildDate>Thu, 25 Feb 2016 15:09:10 -0800</lastBuildDate>
     <generator>Jekyll v3.1.1</generator>
+    
+      <item>
+        <title>Safe password storage in Node.js</title>
+        <description>&lt;h2 id=&quot;why-use-bcrypt&quot;&gt;Why Use &lt;em&gt;bcrypt&lt;/em&gt;?&lt;/h2&gt;
+
+&lt;h2 id=&quot;why-not-use-md5-sha1-sha256-sha512-sha-3-etc&quot;&gt;Why Not Use MD5, SHA1, SHA256, SHA512, SHA-3, etc?&lt;/h2&gt;
+
+&lt;h2 id=&quot;reference&quot;&gt;Reference&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://codahale.com/how-to-safely-store-a-password/&quot;&gt;How To Safely Store A Password&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://nakedsecurity.sophos.com/2013/11/20/serious-security-how-to-store-your-users-passwords-safely/&quot;&gt;Serious Security: How to store your users’ passwords safely&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Bcrypt&quot;&gt;bcrypt from Wikipedia&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/ncb000gt/node.bcrypt.js&quot;&gt;bcrypt for NodeJs&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 25 Feb 2016 04:00:00 -0800</pubDate>
+        <link>aaronice.github.io/2016/02/25/safely-store-password-node/</link>
+        <guid isPermaLink="true">aaronice.github.io/2016/02/25/safely-store-password-node/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Clustering in Node.js</title>
+        <description>&lt;h2 id=&quot;reference&quot;&gt;Reference&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://blog.carbonfive.com/2014/02/28/taking-advantage-of-multi-processor-environments-in-node-js/&quot;&gt;Taking Advantage of Multi-Processor Environments in Node.js&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 24 Feb 2016 04:00:00 -0800</pubDate>
+        <link>aaronice.github.io/2016/02/24/node-js-cluster/</link>
+        <guid isPermaLink="true">aaronice.github.io/2016/02/24/node-js-cluster/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>ES6 Learning</title>
+        <description>&lt;h2 id=&quot;reference&quot;&gt;Reference&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/ericdouglas/ES6-Learning&quot;&gt;ECMAScript 6 Learning - List of resources to learn ECMAScript 6&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://ccoenraets.github.io/es6-tutorial/&quot;&gt;ECMAScript 2015 (ES6) Tutorial with Babel 6 and Webpack&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://gank.io/post/564151c1f1df1210001c9161&quot;&gt;给 JavaScript 初心者的 ES2015 实战&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 20 Feb 2016 04:00:00 -0800</pubDate>
+        <link>aaronice.github.io/2016/02/20/es6-features/</link>
+        <guid isPermaLink="true">aaronice.github.io/2016/02/20/es6-features/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>React Performance Optimization</title>
+        <description>&lt;p&gt;React Performance Optimization&lt;/p&gt;
+
+&lt;p&gt;(To do)&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://facebook.github.io/react/docs/perf.html&quot;&gt;Facebook React Performance Tools&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://facebook.github.io/react/docs/advanced-performance.html&quot;&gt;React Advanced Performance&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;
+    &lt;table&gt;
+      &lt;tbody&gt;
+        &lt;tr&gt;
+          &lt;td&gt;[Optimizing React Performance using keys, component life cycle, and performance tools&lt;/td&gt;
+          &lt;td&gt;Part 1](http://jaero.space/blog/react-performance-1)&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://kelle.co/react-perf-slides/#1&quot;&gt;Jaero Slides&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://jonmiles.github.io/react-performance-tests/react.html&quot;&gt;React.js Performance Tests&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 18 Feb 2016 04:00:00 -0800</pubDate>
+        <link>aaronice.github.io/2016/02/18/react-performance-optimization/</link>
+        <guid isPermaLink="true">aaronice.github.io/2016/02/18/react-performance-optimization/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Anti Anti-spider Strategy</title>
@@ -382,645 +466,12 @@ Responding to Change » Following a Plan&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project&quot;&gt;OWASP Top 10&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.owasp.org/index.php/OWASP_Top_Ten_Cheat_Sheet&quot;&gt;OWASP_Top_Ten_Cheat_Sheet&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://nodegoat.herokuapp.com/tutorial&quot;&gt;OWASP Node Goat Tutorial: Fixing OWASP Top 10&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         <pubDate>Mon, 18 Jan 2016 04:00:00 -0800</pubDate>
         <link>aaronice.github.io/2016/01/18/owasp-security-top-10/</link>
         <guid isPermaLink="true">aaronice.github.io/2016/01/18/owasp-security-top-10/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Binary Search Tree</title>
-        <description>
-</description>
-        <pubDate>Mon, 04 Jan 2016 04:00:00 -0800</pubDate>
-        <link>aaronice.github.io/2016/01/04/binary-search-tree/</link>
-        <guid isPermaLink="true">aaronice.github.io/2016/01/04/binary-search-tree/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Flux Architecture</title>
-        <description>
-</description>
-        <pubDate>Mon, 04 Jan 2016 04:00:00 -0800</pubDate>
-        <link>aaronice.github.io/2016/01/04/flux-architecture/</link>
-        <guid isPermaLink="true">aaronice.github.io/2016/01/04/flux-architecture/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Node Interactive 2015 Recap</title>
-        <description>&lt;h1 id=&quot;node-interactive-2015-recap&quot;&gt;Node Interactive 2015 Recap&lt;/h1&gt;
-
-&lt;hr /&gt;
-
-&lt;ul id=&quot;markdown-toc&quot;&gt;
-  &lt;li&gt;&lt;a href=&quot;#node-interactive-2015-recap&quot; id=&quot;markdown-toc-node-interactive-2015-recap&quot;&gt;Node Interactive 2015 Recap&lt;/a&gt;    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#nodejs-ecosystem&quot; id=&quot;markdown-toc-nodejs-ecosystem&quot;&gt;Node.js Ecosystem&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#the-adoption-trend&quot; id=&quot;markdown-toc-the-adoption-trend&quot;&gt;The Adoption Trend&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#nodejs-in-production&quot; id=&quot;markdown-toc-nodejs-in-production&quot;&gt;Node.js in Production&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#debugging-nodejs-in-production&quot; id=&quot;markdown-toc-debugging-nodejs-in-production&quot;&gt;Debugging Node.js in Production&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#making-your-nodejs-applications-debuggable&quot; id=&quot;markdown-toc-making-your-nodejs-applications-debuggable&quot;&gt;Making Your Node.js Applications Debuggable&lt;/a&gt;        &lt;ul&gt;
-          &lt;li&gt;&lt;a href=&quot;#intro&quot; id=&quot;markdown-toc-intro&quot;&gt;Intro&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#performance&quot; id=&quot;markdown-toc-performance&quot;&gt;Performance&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#memory&quot; id=&quot;markdown-toc-memory&quot;&gt;Memory&lt;/a&gt;&lt;/li&gt;
-          &lt;li&gt;&lt;a href=&quot;#summary&quot; id=&quot;markdown-toc-summary&quot;&gt;Summary&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-      &lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#nodejs-performance-optimization&quot; id=&quot;markdown-toc-nodejs-performance-optimization&quot;&gt;Node.js Performance Optimization&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#useful-resources&quot; id=&quot;markdown-toc-useful-resources&quot;&gt;Useful Resources&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;Node Interactive 2015 is the Node.js Foundation lead conference.&lt;/p&gt;
-
-&lt;p&gt;There are three major tracks of breakout sessions: Server-Side Client-Side Internet of Things&lt;/p&gt;
-
-&lt;p&gt;Here are several topics excerpt from mainly the backend track.&lt;/p&gt;
-
-&lt;h2 id=&quot;nodejs-ecosystem&quot;&gt;Node.js Ecosystem&lt;/h2&gt;
-
-&lt;p&gt;As of Dec. 2015, there are more than 200,000 Node.js modules exist in NPM, namely, the Node,  Package, Manager.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;NPM is the largest package manager in the world&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;After the merge with io.js, the Node release version seems skyrocketed. Luckily, the good thing is Node.js has come up with the LTS version, thus making enterprise adopters more comfortable with this still new technology. While at the same time, it keeps the speed for development and evolving.&lt;/p&gt;
-
-&lt;p&gt;Node.js Long Term Support Schedule (as of Dec. 2015)&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/img/node-interactive/Node_Interactive_2015_LTS.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;the-adoption-trend&quot;&gt;The Adoption Trend&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;With Node.js being used in 98% of the Fortune 500 companies regularly, the event will also highlight the maturation of the technology within enterprises.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Capital One, GoDaddy, Intel, NodeSource, NPM and Uber are using Node.js to meet their innovation needs&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Startups are leading the way in adding Node.js into their strategy, but in 2013 and 2014 larger incumbents started to transition their stacks with Node.js as a core technology, notable names include PayPal, Condé Nast, and Costa.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&quot;nodejs-in-production&quot;&gt;Node.js in Production&lt;/h2&gt;
-
-&lt;p&gt;As the the Node.js technology develops, more and more Big companies put Node.js into production.&lt;/p&gt;
-
-&lt;p&gt;Here are some notable examples (as of Dec. 2015):&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Paypal&lt;/strong&gt;: Node.js replaces Java/Spring 2012&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Uber&lt;/strong&gt;: Early adopter, Realtime API, open source: ringpop, tchannel&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Netflix&lt;/strong&gt;: Node.js, restify, React, Docker, AWS EC2 Container&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;IBM&lt;/strong&gt;: Top use cases for Node are REST APIs and real time services.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Intel&lt;/strong&gt;: IoTivity, leader in Internet of Things&lt;/p&gt;
-
-&lt;h2 id=&quot;debugging-nodejs-in-production&quot;&gt;Debugging Node.js in Production&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://www.slideshare.net/yunongx/node-interactive-debugging-nodejs-in-production&quot;&gt;Presentation&lt;/a&gt; by Yunong Xiao @ Netflix Node Platform&lt;/p&gt;
-
-&lt;p&gt;Here are 3 issues in production and their corresponding solution:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Runtime Performance
-    &lt;ul&gt;
-      &lt;li&gt;CPU profiling/flame graphs&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Runtime Crashes
-    &lt;ul&gt;
-      &lt;li&gt;Inspect program state with core dumps&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Memory Leaks
-    &lt;ul&gt;
-      &lt;li&gt;Analyze objects and references with core dumps&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;making-your-nodejs-applications-debuggable&quot;&gt;Making Your Node.js Applications Debuggable&lt;/h2&gt;
-
-&lt;p&gt;Presentation by Patrick Mueller @ NodeSource&lt;/p&gt;
-
-&lt;h3 id=&quot;intro&quot;&gt;Intro&lt;/h3&gt;
-
-&lt;p&gt;Profiling Node.js mainly referring to performance(CPU) and memory.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Node Profiling:
-    &lt;ul&gt;
-      &lt;li&gt;Performance with V8 CPU profiler&lt;/li&gt;
-      &lt;li&gt;Memory with V8 heap snapshots&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;performance&quot;&gt;Performance&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;Understanding performance
-    &lt;ul&gt;
-      &lt;li&gt;Self time - time to run the function, not including other function calls.&lt;/li&gt;
-      &lt;li&gt;Total time - time to run the function, including other function calls.&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;How to get CPU profiles?
-    &lt;ul&gt;
-      &lt;li&gt;npm v8-profiler (requires instrumenting your code)&lt;/li&gt;
-      &lt;li&gt;npm node-inspector&lt;/li&gt;
-      &lt;li&gt;StrongLoop Arc&lt;/li&gt;
-      &lt;li&gt;NodeSource N Solid&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;memory&quot;&gt;Memory&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;What are v8 heap snapshots?
-    &lt;ul&gt;
-      &lt;li&gt;JSON file describing every reachable Javascript object in the application, taking snapshots always starts with a garbage collection&lt;/li&gt;
-      &lt;li&gt;JSON files are … large&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Understanding heap snapshots
-    &lt;ul&gt;
-      &lt;li&gt;Shallow Size: The memory allocated to store the object itself&lt;/li&gt;
-      &lt;li&gt;Retained Size: The size of memory that can be freed once an object deleted&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;summary&quot;&gt;Summary&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;Profiling performance
-    &lt;ul&gt;
-      &lt;li&gt;look for width for trace visualization&lt;/li&gt;
-      &lt;li&gt;scripts: start profile, run load tester, stop profile&lt;/li&gt;
-      &lt;li&gt;use node/v8 option —no-use-inlining to turn off function inlining&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Profiling memory
-    &lt;ul&gt;
-      &lt;li&gt;Easiest way to detect memory leak take memory snapshot&lt;/li&gt;
-      &lt;li&gt;‘Tag’ objects you think might be leaking with easy to find class&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;nodejs-performance-optimization&quot;&gt;Node.js Performance Optimization&lt;/h2&gt;
-
-&lt;p&gt;Presentation by Bryce Baril @ NodeSource&lt;/p&gt;
-
-&lt;p&gt;Purpose of performance optimization: Task Completion (User experience) &amp;amp; Throughput (Scale)&lt;/p&gt;
-
-&lt;p&gt;Proposed workflow for performance optimization:&lt;/p&gt;
-
-&lt;p&gt;📝 &lt;strong&gt;WORKFLOW&lt;/strong&gt; 📝&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;❔ Is it fast enough?&lt;/li&gt;
-  &lt;li&gt;🔍 Identify the nature of the problem. (🏗 vs 🏭)&lt;/li&gt;
-  &lt;li&gt;🔬 Select tools based on the problem.&lt;/li&gt;
-  &lt;li&gt;📐 Measure.&lt;/li&gt;
-  &lt;li&gt;📍 Identify the location of the problem.&lt;/li&gt;
-  &lt;li&gt;👓 Make the slower parts faster.&lt;/li&gt;
-  &lt;li&gt;📐 Measure again.&lt;/li&gt;
-  &lt;li&gt;🔁 Go back to step 0.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;💩 &lt;strong&gt;REASONS FOR POOR PERFORMANCE&lt;/strong&gt; 💩&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Wrong tool for the job;&lt;/li&gt;
-  &lt;li&gt;Doing unnecessary things;&lt;/li&gt;
-  &lt;li&gt;Poor algorithm choice;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;useful-resources&quot;&gt;Useful Resources&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://events.linuxfoundation.org/events/node-interactive&quot;&gt;Conference Homepage&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://nodejspdx2015.sched.org&quot;&gt;Conference Schedule&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://goo.gl/1Vaqao&quot;&gt;Conference Videos&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://strongloop.com/node-js/videos/&quot;&gt;StrongLoop Node.js Videos&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.joyent.com/developers/node&quot;&gt;Joyent Videos&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Sat, 19 Dec 2015 04:00:00 -0800</pubDate>
-        <link>aaronice.github.io/2015/12/19/node-interactive-recap/</link>
-        <guid isPermaLink="true">aaronice.github.io/2015/12/19/node-interactive-recap/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>React.js Study Notes</title>
-        <description>&lt;h1 id=&quot;reactjs-study-notes&quot;&gt;React.js Study Notes&lt;/h1&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;introduction-to-react&quot;&gt;Introduction to React&lt;/h2&gt;
-
-&lt;p&gt;React Official Page: https://facebook.github.io/react/&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;React is a JavaScript library for creating user interfaces by Facebook and Instagram. Many people choose to think of React as the &lt;strong&gt;V&lt;/strong&gt; in &lt;a href=&quot;https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller&quot;&gt;&lt;strong&gt;MVC&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;React is built to solve one problem: &lt;strong&gt;building large applications with data that changes over time.&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;React is all about building reusable components.&lt;/strong&gt; - &lt;a href=&quot;https://facebook.github.io/react/docs/why-react.html&quot;&gt;React.js&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h4 id=&quot;think-in-react&quot;&gt;Think in React&lt;/h4&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Components are Just State Machines&lt;/strong&gt;&lt;/p&gt;
-
-  &lt;p&gt;React thinks of UIs as simple &lt;em&gt;state machines&lt;/em&gt;. By thinking of a UI as being in various states and rendering those states, it’s easy to keep your UI consistent.&lt;/p&gt;
-
-  &lt;p&gt;In React, you simply update a component’s &lt;code class=&quot;highlighter-rouge&quot;&gt;state&lt;/code&gt;, and then render a new UI based on this new state. React takes care of updating the DOM for you in the most efficient way.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;strong&gt;About React.js&lt;/strong&gt;
-- Open source, but maintained by Facebook
-- Can be the “V” (view) in MVC
-- Ideal for large-scale, single page applications
-- Uses a high speed virtual DOM
-- Options to use clean and easy-to-understand JSX syntax&lt;/p&gt;
-
-&lt;h2 id=&quot;environment-setup&quot;&gt;Environment Setup&lt;/h2&gt;
-&lt;p&gt;Actually it’s possible to create a React.js app without installing &lt;code class=&quot;highlighter-rouge&quot;&gt;npm&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;By using content delivery network, we can add following snippet to an HTML file to enable React.js:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/react/0.14.0/react.js&quot;&amp;gt;&amp;lt;/script&amp;gt;
-&amp;lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/react/0.14.0/react-dom.js&quot;&amp;gt;&amp;lt;/script&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;p&gt;An alternative is to use &lt;a href=&quot;https://babeljs.io/&quot;&gt;Babel&lt;/a&gt; with &lt;a href=&quot;gulpjs.com&quot;&gt;Gulp&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&quot;displaying-data&quot;&gt;Displaying Data&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The way we are able to figure this out is that React does not manipulate the DOM unless it needs to. &lt;strong&gt;It uses a fast, internal mock DOM to perform diffs and computes the most efficient DOM mutation for you.&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;React
-ReactDOM&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Why is React So Fast?&lt;/strong&gt;
-- Javascript Objects are faster than DOM objects
-- The React virtual DOM is a Javascript object
-- React never reads from the “real” DOM
-- React only writes to the real DOM if needed.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;jsx&quot;&gt;JSX&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;In-browser JSX Transformer
-    &lt;ul&gt;
-      &lt;li&gt;It’s great for development, but will take extra time for production code&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;React tools
-    &lt;ul&gt;
-      &lt;li&gt;Good for production, pre-process the JSX; e.g. Babel&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;rendering-component-tips&quot;&gt;Rendering Component Tips&lt;/h3&gt;
-&lt;p&gt;It allows maximum of one node to be returned in render function.&lt;/p&gt;
-
-&lt;p&gt;The following example will get syntax error:&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Optimistic&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;React&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;createClass&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;render&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
-            &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;h1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;props&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;loves&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;React&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/h1&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;gt;
-&lt;/span&gt;            &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;p&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;React&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;doesn&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;’&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;t&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;Idea&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;sprinkle&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;some&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;divs&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;here&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;there&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/p&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;gt;
-&lt;/span&gt;        &lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
-
-&lt;span class=&quot;nx&quot;&gt;React&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;render&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
-    &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;Optimistic&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;Peter&quot;&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&amp;gt;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
-    &lt;span class=&quot;nb&quot;&gt;document&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;getElementById&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;myContainer&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;h3 id=&quot;render-a-list-of-components&quot;&gt;Render a List of Components&lt;/h3&gt;
-
-&lt;p&gt;Create a list of React component in an array, and assign it to a wrapper, like &amp;lt;ul&amp;gt;&amp;lt;/ul&amp;gt;, &amp;lt;div&amp;gt;&amp;lt;/div&amp;gt;&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
-&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;TodoItem&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;React&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;createClass&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;render&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt;  &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;li&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;props&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;item&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/li&amp;gt;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;;
-&lt;/span&gt;    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
-
-&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;TodoList&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;React&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;createClass&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;render&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;todos&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;props&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;items&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;map&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;item&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-            &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
-                &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;TodoItem&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;item&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;item&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;sr&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;gt;
-&lt;/span&gt;            &lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-        &lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;  
-        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt;  &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;ul&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;todos&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/ul&amp;gt;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;;
-&lt;/span&gt;    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;component-specs-and-lifecycle&quot;&gt;Component Specs and Lifecycle&lt;/h2&gt;
-
-&lt;h3 id=&quot;component-specifications&quot;&gt;Component Specifications&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;render()&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;getInitialState()&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;propTypes&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;mixins&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;statics&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;displayName&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;lifecycle-methods&quot;&gt;Lifecycle Methods&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Mounting: &lt;code class=&quot;highlighter-rouge&quot;&gt;componentWillMount&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;Mounting:&lt;code class=&quot;highlighter-rouge&quot;&gt;componentDidMount&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;Updating: &lt;code class=&quot;highlighter-rouge&quot;&gt;componentWillReceiveProps&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;Updating: &lt;code class=&quot;highlighter-rouge&quot;&gt;shouldComponentUpdate&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;Updating: &lt;code class=&quot;highlighter-rouge&quot;&gt;componentWillUpdate&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;Updating: &lt;code class=&quot;highlighter-rouge&quot;&gt;componentDidUpdate&lt;/code&gt;&lt;/li&gt;
-  &lt;li&gt;Unmounting: &lt;code class=&quot;highlighter-rouge&quot;&gt;componentWillUnmount&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;component-lifecycle&quot;&gt;Component Lifecycle&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://cdn4.infoqstatic.com/statics_s1_20151111-0209/resource/articles/react-jsx-and-component/zh/resources/0702001.png&quot; alt=&quot;img&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Based on &lt;a href=&quot;http://javascript.tutorialhorizon.com/2014/09/13/execution-sequence-of-a-react-components-lifecycle-methods/&quot;&gt;&lt;strong&gt;Execution sequence of a React component’s lifecycle methods&lt;/strong&gt;&lt;/a&gt;, four scenarios need to be aware of the life­cy­cle meth­ods:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Ini­tial Ren­der&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://camo.githubusercontent.com/461765618c95d7d3d0941d767a95855cb5698195/687474703a2f2f7279616e73756b616c652e636f6d2f76697a2f74682f6a732f72656163746a735f636f6d706f6e656e745f6c6966656379636c652f696e697469616c5f72656e6465722e706e67&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Props Change&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://camo.githubusercontent.com/89a1b3c9ec4282045c095b5e74c296de7165955a/687474703a2f2f7279616e73756b616c652e636f6d2f76697a2f74682f6a732f72656163746a735f636f6d706f6e656e745f6c6966656379636c652f70726f70735f6368616e67652e706e67&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;State Change&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://camo.githubusercontent.com/10de2955e68ca334679daf4cf821b18b5364f029/687474703a2f2f7279616e73756b616c652e636f6d2f76697a2f74682f6a732f72656163746a735f636f6d706f6e656e745f6c6966656379636c652f73746174655f6368616e67652e706e67&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Com­po­nent Unmount&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://camo.githubusercontent.com/c0390065e7dcd4e75ad6a146db705f8a23826716/687474703a2f2f7279616e73756b616c652e636f6d2f76697a2f74682f6a732f72656163746a735f636f6d706f6e656e745f6c6966656379636c652f756e6d6f756e742e706e67&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The following code snippet con­tains all the life­cy­cle meth­ods and other fre­quenly used method that you can use as start­ing point for cre­at­ing your com­po­nents.&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;//@jsx React.DOM&lt;/span&gt;
-
-&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;React&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;react&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;MyReactComponent&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;React&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;createClass&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;({&lt;/span&gt;
-
-    &lt;span class=&quot;c1&quot;&gt;// The object returned by this method sets the initial value of this.state&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;getInitialState&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(){&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{};&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
-
-    &lt;span class=&quot;c1&quot;&gt;// The object returned by this method sets the initial value of this.props&lt;/span&gt;
-    &lt;span class=&quot;c1&quot;&gt;// If a complex object is returned, it is shared among all component instances&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;getDefaultProps&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(){&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{};&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
-
-    &lt;span class=&quot;c1&quot;&gt;// Returns the jsx markup for a component&lt;/span&gt;
-    &lt;span class=&quot;c1&quot;&gt;// Inspects this.state and this.props create the markup&lt;/span&gt;
-    &lt;span class=&quot;c1&quot;&gt;// Should never update this.state or this.props&lt;/span&gt;
-    &lt;span class=&quot;na&quot;&gt;render&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(){&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;div&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/div&amp;gt;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;;
-&lt;/span&gt;    &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
-
-    &lt;span class=&quot;c1&quot;&gt;// An array of objects each of which can augment the lifecycle methods&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;mixins&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[],&lt;/span&gt;
-
-    &lt;span class=&quot;c1&quot;&gt;// Functions that can be invoked on the component without creating instances&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;statics&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;nl&quot;&gt;aStaticFunction&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(){}&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
-
-    &lt;span class=&quot;c1&quot;&gt;// -- Lifecycle Methods --&lt;/span&gt;
-
-    &lt;span class=&quot;c1&quot;&gt;// Invoked once before first render&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;componentWillMount&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(){&lt;/span&gt;
-        &lt;span class=&quot;c1&quot;&gt;// Calling setState here does not cause a re-render&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
-
-    &lt;span class=&quot;c1&quot;&gt;// Invoked once after the first render&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;componentDidMount&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(){&lt;/span&gt;
-        &lt;span class=&quot;c1&quot;&gt;// You now have access to this.getDOMNode()&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
-
-    &lt;span class=&quot;c1&quot;&gt;// Invoked whenever there is a prop change&lt;/span&gt;
-    &lt;span class=&quot;c1&quot;&gt;// Called BEFORE render&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;componentWillReceiveProps&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;nextProps&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
-        &lt;span class=&quot;c1&quot;&gt;// Not called for the initial render&lt;/span&gt;
-        &lt;span class=&quot;c1&quot;&gt;// Previous props can be accessed by this.props&lt;/span&gt;
-        &lt;span class=&quot;c1&quot;&gt;// Calling setState here does not trigger an an additional re-render&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
-
-    &lt;span class=&quot;c1&quot;&gt;// Determines if the render method should run in the subsequent step&lt;/span&gt;
-    &lt;span class=&quot;c1&quot;&gt;// Called BEFORE a render&lt;/span&gt;
-    &lt;span class=&quot;c1&quot;&gt;// Not called for the initial render&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;shouldComponentUpdate&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;nextProps&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;nextState&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
-        &lt;span class=&quot;c1&quot;&gt;// If you want the render method to execute in the next step&lt;/span&gt;
-        &lt;span class=&quot;c1&quot;&gt;// return true, else return false&lt;/span&gt;
-        &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
-
-    &lt;span class=&quot;c1&quot;&gt;// Called IMMEDIATELY BEFORE a render&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;componentWillUpdate&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;nextProps&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;nextState&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
-        &lt;span class=&quot;c1&quot;&gt;// You cannot use this.setState() in this method&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
-
-    &lt;span class=&quot;c1&quot;&gt;// Called IMMEDIATELY AFTER a render&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;componentDidUpdate&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;prevProps&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;prevState&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;){&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;},&lt;/span&gt;
-
-    &lt;span class=&quot;c1&quot;&gt;// Called IMMEDIATELY before a component is unmounted&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;componentWillUnmount&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(){&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-
-&lt;span class=&quot;p&quot;&gt;});&lt;/span&gt;
-
-&lt;span class=&quot;nx&quot;&gt;module&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;exports&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;MyReactComponent&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
-
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;tips&quot;&gt;Tips&lt;/h2&gt;
-
-&lt;h3 id=&quot;reactdomrender-vs-reactrender&quot;&gt;ReactDOM.render() vs React.render()&lt;/h3&gt;
-
-&lt;p&gt;From &lt;a href=&quot;https://facebook.github.io/react/blog/2015/10/01/react-render-and-top-level-api.html&quot;&gt;ReactDOM.render and the Top Level React API&lt;/a&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;When you’re in React’s world you are just building components that fit into other components. Everything is a component. Unfortunately not everything around you is built using React. At the root of your tree you still have to write some plumbing code to connect the outer world into React.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The primary API for rendering into the DOM looks like this:&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;ReactDOM.render(reactElement, domContainerNode)&lt;/code&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;To update the properties of an existing component, you call render again with a new element.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;If you are rendering React components within a single-page app, you may need to plug into the app’s view lifecycle to ensure your app will invoke &lt;code class=&quot;highlighter-rouge&quot;&gt;unmountComponentAtNode&lt;/code&gt; at the appropriate time. &lt;strong&gt;React will not automatically clean up a tree&lt;/strong&gt;. You need to manually call:&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;ReactDOM.unmountComponentAtNode( domContainerNode )&lt;/code&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;This is important and often forgotten. Forgetting to call unmountComponentAtNode will cause your app to &lt;strong&gt;leak memory&lt;/strong&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h3 id=&quot;difference-between-state-and-props-in-reactjs&quot;&gt;Difference between state and props in React.js&lt;/h3&gt;
-
-&lt;p&gt;Some discussion on StackOverflow:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;http://stackoverflow.com/questions/27991366/what-is-the-difference-between-state-and-props-in-react&quot;&gt;What is the difference between state and props in React?&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://stackoverflow.com/questions/23481061/reactjs-state-vs-prop&quot;&gt;ReactJS state vs prop&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/uberVU/react-guide/blob/master/props-vs-state.md&quot;&gt;props vs state&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;On React.js Official Website:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;h4 id=&quot;a-brief-interlude-props-vs-state&quot;&gt;A brief interlude: props vs state&lt;/h4&gt;
-  &lt;p&gt;There are two types of “model” data in React: &lt;code class=&quot;highlighter-rouge&quot;&gt;props&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;state&lt;/code&gt;. It’s important to understand the distinction between the two; skim the &lt;a href=&quot;https://facebook.github.io/react/docs/interactivity-and-dynamic-uis.html&quot;&gt;official React docs&lt;/a&gt; if you aren’t sure what the difference is.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;To understand the difference between &lt;code class=&quot;highlighter-rouge&quot;&gt;props&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;state&lt;/code&gt;, we have to know what they are in the first place.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://facebook.github.io/react/docs/interactivity-and-dynamic-uis.html&quot;&gt;Link to the article&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Some helpful extracts from the article:&lt;/p&gt;
-
-&lt;h4 id=&quot;how-state-works&quot;&gt;How State Works&lt;/h4&gt;
-&lt;p&gt;A common way to inform React of a data change is by calling &lt;code class=&quot;highlighter-rouge&quot;&gt;setState(data, callback)&lt;/code&gt;. This method merges &lt;code class=&quot;highlighter-rouge&quot;&gt;data&lt;/code&gt; into &lt;code class=&quot;highlighter-rouge&quot;&gt;this.state&lt;/code&gt; and re-renders the component. When the component finishes re-rendering, the optional &lt;code class=&quot;highlighter-rouge&quot;&gt;callback&lt;/code&gt; is called. Most of the time you’ll never need to provide a &lt;code class=&quot;highlighter-rouge&quot;&gt;callback&lt;/code&gt; since React will take care of keeping your UI up-to-date for you.&lt;/p&gt;
-
-&lt;h4 id=&quot;what-components-should-have-state&quot;&gt;What Components Should Have State?&lt;/h4&gt;
-
-&lt;p&gt;Most of your components should simply take some data from &lt;code class=&quot;highlighter-rouge&quot;&gt;props&lt;/code&gt; and render it. However, sometimes you need to respond to &lt;strong&gt;user input&lt;/strong&gt;, &lt;strong&gt;a server request&lt;/strong&gt; or &lt;strong&gt;the passage of time&lt;/strong&gt;. For this you use &lt;code class=&quot;highlighter-rouge&quot;&gt;state&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Try to keep as many of your components as possible &lt;em&gt;stateless&lt;/em&gt;&lt;/strong&gt;. By doing this you’ll isolate the state to its most logical place and minimize redundancy, making it easier to reason about your application.&lt;/p&gt;
-
-&lt;p&gt;A common pattern is to create several &lt;em&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;stateless&lt;/code&gt; components that just render data&lt;/em&gt;, and have a &lt;em&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;stateful&lt;/code&gt; component above them in the hierarchy that passes its &lt;code class=&quot;highlighter-rouge&quot;&gt;state&lt;/code&gt; to its children via &lt;code class=&quot;highlighter-rouge&quot;&gt;props&lt;/code&gt;&lt;/em&gt;. The stateful component encapsulates all of the &lt;strong&gt;interaction logic&lt;/strong&gt;, while the stateless components take care of &lt;strong&gt;rendering data&lt;/strong&gt; in a declarative way.&lt;/p&gt;
-
-&lt;h4 id=&quot;what-should-go-in-state&quot;&gt;What Should Go in State?&lt;/h4&gt;
-
-&lt;p&gt;&lt;strong&gt;State should contain data that a component’s event handlers may change to trigger a UI update&lt;/strong&gt;. In real apps this data tends to be very small and JSON-serializable. When building a stateful component, think about the minimal possible representation of its state, and only store those properties in &lt;code class=&quot;highlighter-rouge&quot;&gt;this.state&lt;/code&gt;. Inside of &lt;code class=&quot;highlighter-rouge&quot;&gt;render() &lt;/code&gt; simply compute any other information you need based on this state. You’ll find that thinking about and writing applications in this way tends to lead to the most correct application, since adding redundant or computed values to state means that you need to explicitly keep them in sync rather than rely on React computing them for you.&lt;/p&gt;
-
-&lt;h4 id=&quot;what-shouldnt-go-in-state&quot;&gt;What Shouldn’t Go in State?&lt;/h4&gt;
-
-&lt;p&gt;this.state should only contain the minimal amount of data needed to represent your UI’s state. As such, it should not contain:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Computed data&lt;/strong&gt;: Don’t worry about precomputing values based on state — it’s easier to ensure that your UI is consistent if you do all computation within &lt;code class=&quot;highlighter-rouge&quot;&gt;render()&lt;/code&gt;. For example, if you have an array of list items in state and you want to render the count as a string, simply render &lt;code class=&quot;highlighter-rouge&quot;&gt;this.state.listItems.length + &#39; list items&#39;&lt;/code&gt; in your render() method rather than storing it on state.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;React components&lt;/strong&gt;: Build them in &lt;code class=&quot;highlighter-rouge&quot;&gt;render()&lt;/code&gt; based on underlying props and state.&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Duplicated data from props&lt;/strong&gt;: Try to use props as the source of truth where possible. One valid use to store props in state is to be able to know its previous values, because props may change as the result of a parent component re-rendering.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;loop-and-render-node-elements-in-reactjs&quot;&gt;Loop and render node (elements) in React.js&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://stackoverflow.com/questions/29149169/how-to-loop-and-render-elements-in-react-js-without-an-array-of-objects-to-map&quot;&gt;Q&amp;amp;A on StackOverflow&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Because of &lt;a href=&quot;http://facebook.github.io/react/tips/maximum-number-of-jsx-root-nodes.html&quot;&gt;&lt;strong&gt;Maximum Number of JSX Root Nodes&lt;/strong&gt;&lt;/a&gt;, the return value needs to be wrapped in a container, such as &lt;code class=&quot;highlighter-rouge&quot;&gt;&amp;lt;div&amp;gt;&amp;lt;/div&amp;gt;&lt;/code&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;by Dhiraj Bodicherla&lt;/em&gt;&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nx&quot;&gt;render&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;indents&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[];&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;props&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;level&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;indents&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;push&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;span&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;className&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&#39;indent&#39;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/span&amp;gt;&lt;/span&gt;&lt;span class=&quot;se&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;;
-&lt;/span&gt;  &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-  &lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;
-     &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;div&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;
-      &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;indents&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-      &lt;span class=&quot;s2&quot;&gt;&quot;Some text value&quot;&lt;/span&gt;
-     &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/div&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;&amp;gt;
-&lt;/span&gt;  &lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Another &lt;a href=&quot;http://stackoverflow.com/questions/22876978/loop-inside-react-jsx&quot;&gt;example&lt;/a&gt; for loop in React.js&lt;/p&gt;
-
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;rows&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[];&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;numrows&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-    &lt;span class=&quot;nx&quot;&gt;rows&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;push&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;ObjectRow&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/&amp;gt;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
-&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;tbody&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;rows&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;sr&quot;&gt;/tbody&amp;gt;&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;;
-&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
-
-&lt;p&gt;React.js provides a new way of working with HTML, CSS, and Javascript, the components can be easily re-used, while the virtual DOM concept provides performance improvements on DOM operations. It’s totally fine to write React component working with legacy code, however, it can be hard to manage the data flow and states as the complexity of the project grows. Therefore, a systematic approach, such as an architecture is much needed for a React.js front-end project. In following post, I’ll talk about an architecture, well, it’s not the well-know MVC, in fact, it’s also introduced by Facebook, the &lt;a href=&quot;https://facebook.github.io/flux/&quot;&gt;&lt;strong&gt;Flux&lt;/strong&gt;&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 15 Dec 2015 04:00:00 -0800</pubDate>
-        <link>aaronice.github.io/2015/12/15/react-study/</link>
-        <guid isPermaLink="true">aaronice.github.io/2015/12/15/react-study/</guid>
         
         
       </item>
