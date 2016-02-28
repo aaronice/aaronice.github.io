@@ -5,9 +5,58 @@
     <description>Blog on technology, life, thinking, etc.</description>
     <link>aaronice.github.io/</link>
     <atom:link href="aaronice.github.io/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 25 Feb 2016 15:09:10 -0800</pubDate>
-    <lastBuildDate>Thu, 25 Feb 2016 15:09:10 -0800</lastBuildDate>
+    <pubDate>Sun, 28 Feb 2016 11:07:41 -0800</pubDate>
+    <lastBuildDate>Sun, 28 Feb 2016 11:07:41 -0800</lastBuildDate>
     <generator>Jekyll v3.1.1</generator>
+    
+      <item>
+        <title>Postgre Sql Node</title>
+        <description>
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://mherman.org/blog/2015/02/12/postgresql-and-nodejs/#.VtH2-cddhNE&quot;&gt;PostgreSQL and NodeJS&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 28 Feb 2016 00:00:00 -0800</pubDate>
+        <link>aaronice.github.io/2016/02/28/postgre-sql-node/</link>
+        <guid isPermaLink="true">aaronice.github.io/2016/02/28/postgre-sql-node/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Full Text Search Mongodb</title>
+        <description>
+&lt;h2 id=&quot;reference&quot;&gt;Reference&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.compose.io/articles/full-text-search-with-mongodb-and-node-js/&quot;&gt;Full Text Search with MongoDB &amp;amp; Node.js&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://code.tutsplus.com/tutorials/full-text-search-in-mongodb--cms-24835&quot;&gt;Full-Text Search in MongoDB&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 27 Feb 2016 00:00:00 -0800</pubDate>
+        <link>aaronice.github.io/2016/02/27/full-text-search-mongodb/</link>
+        <guid isPermaLink="true">aaronice.github.io/2016/02/27/full-text-search-mongodb/</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>MongoDB vs CouchDB</title>
+        <description>&lt;h2 id=&quot;reference&quot;&gt;Reference&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://blog.nahurst.com/visual-guide-to-nosql-systems&quot;&gt;Visual Guide to NoSQL Systems&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://kkovacs.eu/cassandra-vs-mongodb-vs-couchdb-vs-redis&quot;&gt;Cassandra vs MongoDB vs CouchDB vs Redis vs Riak vs HBase vs Couchbase vs OrientDB vs Aerospike vs Neo4j vs Hypertable vs ElasticSearch vs Accumulo vs VoltDB vs Scalaris vs RethinkDB comparison&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://blog.scottlogic.com/2014/08/04/mongodb-vs-couchdb.html&quot;&gt;MongoDB vs CouchDB&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;openmymind.net/2011/10/27/A-MongoDB-Guy-Learns-CouchDB/&quot;&gt;A MongoDB Guy Learns CouchDB&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 26 Feb 2016 04:00:00 -0800</pubDate>
+        <link>aaronice.github.io/2016/02/26/mongodb-couchdb/</link>
+        <guid isPermaLink="true">aaronice.github.io/2016/02/26/mongodb-couchdb/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Safe password storage in Node.js</title>
@@ -22,6 +71,13 @@
   &lt;li&gt;&lt;a href=&quot;https://nakedsecurity.sophos.com/2013/11/20/serious-security-how-to-store-your-users-passwords-safely/&quot;&gt;Serious Security: How to store your users’ passwords safely&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Bcrypt&quot;&gt;bcrypt from Wikipedia&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/ncb000gt/node.bcrypt.js&quot;&gt;bcrypt for NodeJs&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;more&quot;&gt;More&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://nodegoat.herokuapp.com/tutorial&quot;&gt;OWASP Node Goat Tutorial: Fixing OWASP Top 10&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://blog.risingstack.com/node-js-security-checklist/&quot;&gt;Node.js Security Checklist&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://nodesecurity.io/&quot;&gt;Node Security Project&lt;/a&gt; &lt;a href=&quot;https://nodesecurity.io/resources&quot;&gt;/resources&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         <pubDate>Thu, 25 Feb 2016 04:00:00 -0800</pubDate>
@@ -84,6 +140,7 @@
   &lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://kelle.co/react-perf-slides/#1&quot;&gt;Jaero Slides&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;http://jonmiles.github.io/react-performance-tests/react.html&quot;&gt;React.js Performance Tests&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://medium.com/@joaomilho/arguing-for-reactjs-7b80aafc6493&quot;&gt;Arguing for ReactJS&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
         <pubDate>Thu, 18 Feb 2016 04:00:00 -0800</pubDate>
@@ -227,251 +284,6 @@ Responding to Change » Following a Plan&lt;/p&gt;
         <pubDate>Tue, 09 Feb 2016 04:00:00 -0800</pubDate>
         <link>aaronice.github.io/2016/02/09/service-oriented-architecture/</link>
         <guid isPermaLink="true">aaronice.github.io/2016/02/09/service-oriented-architecture/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Interesting Machine Learning Projects</title>
-        <description>&lt;p&gt;http://cs229.stanford.edu/projects2015.html#best&lt;/p&gt;
-</description>
-        <pubDate>Mon, 08 Feb 2016 04:00:00 -0800</pubDate>
-        <link>aaronice.github.io/2016/02/08/machine-learning-projects/</link>
-        <guid isPermaLink="true">aaronice.github.io/2016/02/08/machine-learning-projects/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Demystify Nginx</title>
-        <description>&lt;h1 id=&quot;demystify-nginx&quot;&gt;Demystify Nginx&lt;/h1&gt;
-
-&lt;p&gt;&lt;em&gt;TO_DO&lt;/em&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;reference&quot;&gt;Reference&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&quot;http://aosabook.org/en/nginx.html&quot;&gt;Nginx &lt;em&gt;by Andrew Alexeev&lt;/em&gt;&lt;/a&gt;
-&lt;a href=&quot;https://en.wikipedia.org/wiki/Nginx&quot;&gt;Nginx &lt;em&gt;Wikipedia&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sun, 07 Feb 2016 04:00:00 -0800</pubDate>
-        <link>aaronice.github.io/2016/02/07/nginx/</link>
-        <guid isPermaLink="true">aaronice.github.io/2016/02/07/nginx/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>OWASP Security Top 10</title>
-        <description>&lt;h1 id=&quot;owasp-top-10&quot;&gt;OWASP TOP 10&lt;/h1&gt;
-
-&lt;p&gt;OWASP is abbreviation for Open Web Application Security Project.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The &lt;strong&gt;OWASP Top Ten&lt;/strong&gt; represents a broad consensus about what the most critical web application security flaws are.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;hr /&gt;
-
-&lt;ul id=&quot;markdown-toc&quot;&gt;
-  &lt;li&gt;&lt;a href=&quot;#owasp-top-10&quot; id=&quot;markdown-toc-owasp-top-10&quot;&gt;OWASP TOP 10&lt;/a&gt;    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;#sql-injection&quot; id=&quot;markdown-toc-sql-injection&quot;&gt;1. SQL Injection&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#session-hijacking&quot; id=&quot;markdown-toc-session-hijacking&quot;&gt;2. Session hijacking&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#cross-site-scripting-xss&quot; id=&quot;markdown-toc-cross-site-scripting-xss&quot;&gt;3. Cross-site Scripting (XSS)&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#parameter-manipulation-insecure-direct-object-reference&quot; id=&quot;markdown-toc-parameter-manipulation-insecure-direct-object-reference&quot;&gt;4. Parameter Manipulation (insecure direct object reference)&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#insecure-configuration&quot; id=&quot;markdown-toc-insecure-configuration&quot;&gt;5. Insecure Configuration&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#insecure-storage&quot; id=&quot;markdown-toc-insecure-storage&quot;&gt;6. Insecure Storage&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#forcible-browsing&quot; id=&quot;markdown-toc-forcible-browsing&quot;&gt;7. Forcible Browsing&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#cross-site-request-forgery-xsrf&quot; id=&quot;markdown-toc-cross-site-request-forgery-xsrf&quot;&gt;8. Cross-site request forgery (XSRF)&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#vulnerable-components&quot; id=&quot;markdown-toc-vulnerable-components&quot;&gt;9. Vulnerable Components&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#unchecked-redirects&quot; id=&quot;markdown-toc-unchecked-redirects&quot;&gt;10. Unchecked Redirects&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href=&quot;#reference&quot; id=&quot;markdown-toc-reference&quot;&gt;Reference&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;sql-injection&quot;&gt;1. SQL Injection&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Reason&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Targets the back-end data stores via URL, forms, login boxes&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Defense&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;The best defense against SQL injection is use parameterized queries (prepared statements) for SQL queries within the code&lt;/li&gt;
-  &lt;li&gt;No detailed database error message returned directly&lt;/li&gt;
-  &lt;li&gt;Validate the input data before constructing SQL&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;session-hijacking&quot;&gt;2. Session hijacking&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Reason&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Network packet captured, SessionID being used, hijacker treated as user&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Defense&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Encryption of the site over HTTPS will help prevent session tokens from being stolen&lt;/li&gt;
-  &lt;li&gt;Sensitive sites consider not only authentication but also the entire sites: Use SSL, HTTPS&lt;/li&gt;
-  &lt;li&gt;Shorter idle timeouts&lt;/li&gt;
-  &lt;li&gt;Help those who forgot to logout&lt;/li&gt;
-  &lt;li&gt;Harder for hijackers to act&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;cross-site-scripting-xss&quot;&gt;3. Cross-site Scripting (XSS)&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Reason&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;User supplied input is properly escaped, or not verify it to be safe via input validation&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Defense&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Use proper re-encoding before redisplaying user input&lt;/li&gt;
-  &lt;li&gt;Properly escape all untrusted data based on the HTML context&lt;/li&gt;
-  &lt;li&gt;Positive or “whitelist” input validation&lt;/li&gt;
-  &lt;li&gt;Auto-sanitization libraries&lt;/li&gt;
-  &lt;li&gt;Content Security Policy (CSP)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;parameter-manipulation-insecure-direct-object-reference&quot;&gt;4. Parameter Manipulation (insecure direct object reference)&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Reason&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Parameter values contained inside a URL being modified get different functionality or data&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Defense&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Server-side validation&lt;/li&gt;
-  &lt;li&gt;Central validation scheme&lt;/li&gt;
-  &lt;li&gt;Independent business logic&lt;/li&gt;
-  &lt;li&gt;Session variables&lt;/li&gt;
-  &lt;li&gt;Storing data in session variables, no parameters in the URL to be tampered with&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;insecure-configuration&quot;&gt;5. Insecure Configuration&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Reason&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Lack of standard hardening process for deployed infrastructure and software&lt;/li&gt;
-  &lt;li&gt;No central account management mechanism in place on each server&lt;/li&gt;
-  &lt;li&gt;No standardized and central process for patch management&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Defense&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Repeatable Hardening process&lt;/li&gt;
-  &lt;li&gt;New server, repeatable hardening scripts&lt;/li&gt;
-  &lt;li&gt;Patch Management&lt;/li&gt;
-  &lt;li&gt;Regular Updates and Audits&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;insecure-storage&quot;&gt;6. Insecure Storage&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Reason&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Sensitive data may be disclosed to unauthorized party&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Defense&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Determine what’s sensitive&lt;/li&gt;
-  &lt;li&gt;Thread Modeling&lt;/li&gt;
-  &lt;li&gt;Use known strong algorithms&lt;/li&gt;
-  &lt;li&gt;Hashing&lt;/li&gt;
-  &lt;li&gt;Use &amp;gt;=168bits, e.g. SHA-256, instead of MD5, SH0, SH1&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;forcible-browsing&quot;&gt;7. Forcible Browsing&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Reason&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Access by “guessing” the URL&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Defense&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Page Level Authorization&lt;/li&gt;
-  &lt;li&gt;Each page checks to see if the user is authorized to have access&lt;/li&gt;
-  &lt;li&gt;Programmed Authorization&lt;/li&gt;
-  &lt;li&gt;Code and programming to determine a user’s authorization, includes coding roles and access policies&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;cross-site-request-forgery-xsrf&quot;&gt;8. Cross-site request forgery (XSRF)&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Reason&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Victim must be authenticated&lt;/li&gt;
-  &lt;li&gt;Hacker must be able to make a XSRF URL, attack is blind&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Defense&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Decrease session timeouts&lt;/li&gt;
-  &lt;li&gt;XSRF tokens, adding a secret, not automatically submitted, token to ALL sensitive requests&lt;/li&gt;
-  &lt;li&gt;Server generates a token on each page load and stores it, when submits the form, it check if the token matches&lt;/li&gt;
-  &lt;li&gt;Re-authentication&lt;/li&gt;
-  &lt;li&gt;Asking user to re-authenticate before a sensitive transaction is a good way to verify the user and their intended actions&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;vulnerable-components&quot;&gt;9. Vulnerable Components&lt;/h2&gt;
-
-&lt;p&gt;&lt;strong&gt;Reason&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Vulnerable components are common, virtually every app has these issues; development team not enforcing components/libraries up-to-date&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Defense&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Automation checks periodically to check if libraries out-of-date&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;unchecked-redirects&quot;&gt;10. Unchecked Redirects&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;URL redirects exploited by hacker&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;Defense&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Don’t use parameters (in URL), manage re-direction in code such as session data&lt;/li&gt;
-  &lt;li&gt;Server side validation, check redirect URLs, use a whitelist&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;reference&quot;&gt;Reference&lt;/h2&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project&quot;&gt;OWASP Top 10&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.owasp.org/index.php/OWASP_Top_Ten_Cheat_Sheet&quot;&gt;OWASP_Top_Ten_Cheat_Sheet&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;http://nodegoat.herokuapp.com/tutorial&quot;&gt;OWASP Node Goat Tutorial: Fixing OWASP Top 10&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Mon, 18 Jan 2016 04:00:00 -0800</pubDate>
-        <link>aaronice.github.io/2016/01/18/owasp-security-top-10/</link>
-        <guid isPermaLink="true">aaronice.github.io/2016/01/18/owasp-security-top-10/</guid>
         
         
       </item>
