@@ -12,3 +12,4 @@
 - [mongo-connector原理及改造](http://foofish.net/blog/76/mongo-connector)
 - [查询与过滤条件的合并](http://es.xiaoleilu.com/054_Query_DSL/75_Queries_with_filters.html)
 - [MongoBD+Solr全文搜索的历程](http://www.edwardesire.com/full-text-search-of-mongodb-with-solr/)
+- [*MongoDB 中文分字搜索](https://blog.phoenixlzx.com/2014/03/22/chinese-word-split-search-with-mongodb/)
